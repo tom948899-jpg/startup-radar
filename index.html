@@ -1,0 +1,82 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta http-equiv="refresh" content="600">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="theme-color" content="#0b0f14"><meta name="robots" content="noindex,nofollow">
+<title>Startup-Radar</title><style>:root{--bg:#070b10;--card:#121a24;--card2:#0e151d;--line:rgba(255,255,255,.06);--txt:#eef3f8;--mut:#8b9aab;--g:#3dffb0;--gdim:#1a3d30;
+--r:#ff6b7a;--rdim:#3d1a20;--y:#f5c84c;--ydim:#3a3218;--b:#6cb6ff;--p:#c39bff;--shadow:0 8px 28px rgba(0,0,0,.35),0 1px 0 rgba(255,255,255,.04) inset}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}html{-webkit-text-size-adjust:100%}
+body{margin:0 auto;max-width:980px;background:radial-gradient(1200px 600px at 50% -10%,#1d1633 0%,var(--bg) 55%);color:var(--txt);
+font:15px/1.45 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:max(12px,env(safe-area-inset-top)) 14px calc(84px + env(safe-area-inset-bottom))}
+a{color:var(--b);text-decoration:none}.mut{color:var(--mut)}.sm{font-size:12.5px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.logo{display:flex;gap:9px;align-items:center}
+.logo i{width:30px;height:30px;border-radius:9px;background:conic-gradient(from 200deg,var(--p),var(--b),var(--g),var(--p));display:grid;place-items:center;font-style:normal;font-size:16px}
+h1{font-size:17px;margin:0;font-weight:750;letter-spacing:-.2px}h3{font-size:11.5px;text-transform:uppercase;letter-spacing:1.2px;color:var(--mut);margin:0 0 10px;font-weight:700}
+.hero{background:linear-gradient(155deg,#241c3d 0%,#121a26 60%,#0c121a 100%);border:1px solid var(--line);border-radius:22px;padding:18px 16px 14px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;background:radial-gradient(circle,rgba(195,155,255,.18),transparent 70%)}
+.hero .lbl{font-size:12.5px;color:var(--mut)}.hero .big{font-size:24px;font-weight:800;letter-spacing:-.4px;margin:4px 0 10px;line-height:1.2}
+.prog{height:6px;border-radius:9px;background:rgba(255,255,255,.07);overflow:hidden}.prog em{display:block;height:100%;background:linear-gradient(90deg,var(--p),var(--g));border-radius:9px}
+.kgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}@media(min-width:800px){.kgrid{grid-template-columns:repeat(4,1fr)}}
+.k{background:rgba(0,0,0,.22);border:1px solid var(--line);border-radius:14px;padding:10px 12px}.k span{display:block;font-size:11px;color:var(--mut)}
+.k b{display:block;font-size:20px;margin-top:2px;font-variant-numeric:tabular-nums}.k i{display:block;font-style:normal;font-size:11px;color:var(--mut)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;margin-top:12px;box-shadow:var(--shadow)}
+.stage{display:flex;align-items:center;gap:11px;padding:10px 0;border-bottom:1px solid var(--line)}.stage:last-child{border:0}
+.sdot{width:10px;height:10px;border-radius:50%;background:#2b3542;flex:0 0 auto;box-shadow:0 0 0 4px rgba(255,255,255,.03)}
+.s-ok{background:var(--g);box-shadow:0 0 0 4px rgba(61,255,176,.12)}.s-partial{background:var(--y)}.s-failed{background:var(--r)}
+.sbody{flex:1;min-width:0}.srow{display:flex;gap:8px;align-items:baseline}
+.pill{display:inline-flex;align-items:center;gap:4px;padding:3px 9px;border-radius:999px;font-size:11.5px;font-weight:650;white-space:nowrap}
+.pill.ok{background:var(--gdim);color:var(--g)}.pill.warn{background:var(--ydim);color:var(--y)}.pill.bad{background:var(--rdim);color:var(--r)}.pill.wait{background:#1b2430;color:var(--mut)}
+.idea{display:flex;gap:12px;padding:11px 0;border-bottom:1px solid var(--line)}.idea:last-child{border:0}
+.inum{width:28px;height:28px;border-radius:9px;background:linear-gradient(135deg,#2c2150,#1b2a3d);display:grid;place-items:center;font-weight:800;color:var(--p);flex:0 0 auto}
+details.pain{border-bottom:1px solid var(--line)}details.pain:last-child{border:0}details summary{list-style:none;cursor:pointer}details summary::-webkit-details-marker{display:none}
+.pain summary{display:flex;align-items:center;gap:10px;padding:11px 0}.rank{color:var(--mut);font-weight:700;width:18px;text-align:right;font-variant-numeric:tabular-nums}
+.ptitle{flex:1;min-width:0;font-weight:600}.ptitle .sm{display:block;font-weight:400}.score{font-weight:800;font-size:18px;font-variant-numeric:tabular-nums}.score small{font-size:11px;color:var(--mut);font-weight:600}
+.score.hi{color:var(--g)}.trend{font-size:12px;font-weight:700;color:var(--mut);min-width:34px;text-align:right}.trend.up{color:var(--g)}.trend.dn{color:var(--r)}
+.pdet{padding:0 0 12px 28px}.sp{width:100%;height:34px;color:var(--p);margin-bottom:6px}
+.bars{display:grid;gap:5px;margin:4px 0 8px}.bar{display:grid;grid-template-columns:132px 1fr 18px;gap:8px;align-items:center;font-size:12px;color:var(--mut)}
+.bar i,.mixr i{height:6px;background:rgba(255,255,255,.06);border-radius:9px;overflow:hidden}.bar em,.mixr em{display:block;height:100%;background:linear-gradient(90deg,var(--b),var(--p));border-radius:9px}.bar b{color:var(--txt);text-align:right}
+.quote{display:block;background:var(--card2);border:1px solid var(--line);border-left:3px solid var(--p);border-radius:0 14px 14px 0;padding:11px 13px;margin:8px 0;color:var(--txt)}
+.quote p{margin:0 0 6px;font-size:14px}.qmeta{display:flex;justify-content:space-between;gap:8px;font-size:11.5px;color:var(--mut)}.qmeta span:last-child{color:var(--b);white-space:nowrap}
+.src{display:flex;align-items:center;gap:9px;padding:8px 0;border-bottom:1px solid var(--line)}.src:last-child{border:0}.sname{flex:1;font-size:14px}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block;background:#33404f}.d-ok{background:var(--g)}.d-warn{background:var(--y)}.d-bad{background:var(--r)}
+.mixr{display:grid;grid-template-columns:120px 1fr 30px;gap:8px;align-items:center;font-size:12.5px;margin:5px 0}.mixr b{text-align:right}
+.hrow{display:flex;gap:12px;align-items:center;padding:9px 0;border-bottom:1px solid var(--line)}.hrow:last-child{border:0}.hd{width:46px;font-variant-numeric:tabular-nums;font-weight:600}.hdots{display:flex;gap:5px}
+.empty{text-align:center;padding:22px 14px;color:var(--mut);font-size:13.5px;background:var(--card2);border:1px dashed rgba(255,255,255,.09);border-radius:14px}.empty b{display:block;color:var(--txt);font-size:14.5px;margin-bottom:4px}
+.brief{font-size:14px}.brief .mdh{font-size:15px;margin:14px 0 4px;text-transform:none;letter-spacing:-.1px;color:var(--txt);font-weight:700}.brief h2.mdh{font-size:16.5px;color:var(--p)}.brief ul{padding-left:18px;margin:4px 0}.brief p{margin:6px 0}
+.brief blockquote{margin:6px 0;padding:6px 10px;border-left:3px solid var(--p);background:var(--card2);border-radius:0 10px 10px 0}
+.rules{display:grid;gap:6px;font-size:13px;color:#c9d3dd}.rules div::before{content:"✓ ";color:var(--g);font-weight:700}
+.tabs input{display:none}.view{display:none}
+#t1:not(:checked)~main .hero .kgrid{display:none}#t1:not(:checked)~main .hero .big{font-size:19px}
+#t1:checked~main .v1,#t2:checked~main .v2,#t3:checked~main .v3,#t4:checked~main .v4,#t5:checked~main .v5{display:block}
+.bnav{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:space-around;background:rgba(10,14,20,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom));z-index:9}
+.bnav label{flex:1;text-align:center;font-size:10.5px;color:var(--mut);padding:4px 0;cursor:pointer;font-weight:600}.bnav label span{display:block;font-size:19px;line-height:1.3}
+#t1:checked~.bnav label[for=t1],#t2:checked~.bnav label[for=t2],#t3:checked~.bnav label[for=t3],#t4:checked~.bnav label[for=t4],#t5:checked~.bnav label[for=t5]{color:var(--txt)}
+footer{font-size:11.5px;color:var(--mut);margin-top:18px;line-height:1.5;text-align:center}
+@media(min-width:900px){.bnav{position:sticky;top:0;bottom:auto;border:1px solid var(--line);border-radius:16px;margin-bottom:12px}body{padding-bottom:30px}}</style></head><body class="tabs">
+<input type="radio" name="t" id="t1" checked><input type="radio" name="t" id="t2"><input type="radio" name="t" id="t3"><input type="radio" name="t" id="t4"><input type="radio" name="t" id="t5">
+<main>
+<div class="top"><div class="logo"><i>◎</i><div><h1>Startup-Radar</h1><div class="mut sm">Echte Probleme → echte Ideen</div></div></div>
+<div class="mut sm" style="text-align:right">Stand<br><b style="color:var(--txt)">19.10. 18:22</b></div></div>
+<div class="hero"><div class="lbl">Heute Nacht · Montag, 19.10.</div>
+<div class="big">Erster Lauf heute Nacht um 01:00. Danach füllt sich alles automatisch.</div><div class="prog"><em style="width:0%"></em></div><div class="kgrid"><div class='k'><span>Beschwerden</span><b>0</b><i>letzte Nacht</i></div><div class='k'><span>Probleme ≥18</span><b>0</b><i>letzte Analyse</i></div><div class='k'><span>In Datenbank</span><b>0</b><i>laufend</i></div><div class='k'><span>Ideen gesamt</span><b>0</b><i>nie doppelt</i></div></div></div>
+
+<section class="view v1"><div class="card"><h3>Ablauf heute Nacht</h3><div class='stage'><div class='sdot s-wait'></div>
+<div class='sbody'><div class='srow'><b>Scout</b><span class='mut'>01:00</span></div><div class='mut sm'>sammelt echte Beschwerden</div></div><span class='pill wait'>○ wartet</span></div><div class='stage'><div class='sdot s-wait'></div>
+<div class='sbody'><div class='srow'><b>Analyst</b><span class='mut'>03:00</span></div><div class='mut sm'>bewertet &amp; clustert</div></div><span class='pill wait'>○ wartet</span></div><div class='stage'><div class='sdot s-wait'></div>
+<div class='sbody'><div class='srow'><b>Builder</b><span class='mut'>05:00</span></div><div class='mut sm'>baut 3 Ideen</div></div><span class='pill wait'>○ wartet</span></div><div class='stage'><div class='sdot s-wait'></div>
+<div class='sbody'><div class='srow'><b>Briefing</b><span class='mut'>07:30</span></div><div class='mut sm'>dein Morgen-Update</div></div><span class='pill wait'>○ wartet</span></div></div>
+<div class="card"><h3>Top-Ideen </h3><div class='empty'><b>Noch keine Ideen</b>Der Builder liefert die ersten 3 Ideen morgen um 05:00 – hier erscheinen sie dann.</div></div>
+<div class="card"><h3>Stärkste Probleme</h3><div class='empty'><b>Startet heute Nacht</b>Der Scout sucht ab 01:00 in allen Branchen nach echten Beschwerden.</div></div></section>
+
+<section class="view v2"><div class="card"><h3>Ideen</h3><div class='empty'><b>Noch keine Ideen</b>Der Builder liefert die ersten 3 Ideen morgen um 05:00 – hier erscheinen sie dann.</div></div>
+<div class="card"><h3>Regeln</h3><div class="rules"><div>Nur echte Zitate mit Link – nichts erfunden</div><div>Nur Probleme mit ≥ 18 von 25 Punkten</div><div>3–5 Konkurrenten pro Problem geprüft</div><div>Keine Idee wird zweimal vorgeschlagen</div><div>Nichts wird gepostet, gekauft oder angemeldet ohne dein Okay</div></div></div></section>
+
+<section class="view v3"><div class="card"><h3>Problem-Rangliste</h3><div class='empty'><b>Noch keine Schmerzpunkte</b>Nach dem ersten Analyst-Lauf (03:00) stehen hier alle Probleme mit ≥ 18/25 Punkten – mit Trend über die Wochen.</div></div></section>
+
+<section class="view v4"><div class="card"><h3>Belege – echte Stimmen</h3><div class='empty'><b>Noch keine Belege</b>Jede Beschwerde hier ist ein echtes Zitat mit Link – nichts wird erfunden. Die ersten kommen heute Nacht.</div></div>
+</section>
+
+<section class="view v5"><div class="card"><h3>Quellen-Check · 19.10.</h3><div class='src'><span class='dot d-ok'></span><span class='sname'>appstore</span><span class='mut sm'>32 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>discourse(shopify)</span><span class='mut sm'>50 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>firefox-addons</span><span class='mut sm'>1 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>github</span><span class='mut sm'>5 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>googleplay</span><span class='mut sm'>15 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>hackernews</span><span class='mut sm'>5 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>lemmy(feddit.org)</span><span class='mut sm'>10 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>nodebb(iobroker,de)</span><span class='mut sm'>4 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>shopify-apps</span><span class='mut sm'>4 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>stackexchange</span><span class='mut sm'>5 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>steam</span><span class='mut sm'>7 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>wordpress(support)</span><span class='mut sm'>30 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-warn'></span><span class='sname'>youtube(yt-dlp)</span><span class='mut sm'>0 Treffer</span><span class='pill warn'>leer</span></div><div class='src'><span class='dot d-wait'></span><span class='sname'>bluesky</span><span class='mut sm'>0 Treffer</span><span class='pill wait'>Schlüssel fehlt</span></div><div class='src'><span class='dot d-wait'></span><span class='sname'>producthunt-api</span><span class='mut sm'>0 Treffer</span><span class='pill wait'>Schlüssel fehlt</span></div><div class='src'><span class='dot d-wait'></span><span class='sname'>reddit-api</span><span class='mut sm'>0 Treffer</span><span class='pill wait'>Schlüssel fehlt</span></div><div class='src'><span class='dot d-wait'></span><span class='sname'>youtube-api</span><span class='mut sm'>0 Treffer</span><span class='pill wait'>Schlüssel fehlt</span></div><div class='src'><span class='dot d-bad'></span><span class='sname'>reddit(arctic-shift)</span><span class='mut sm'>0 Treffer</span><span class='pill bad'>blockiert</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>x (MCP)</span><span class='mut sm'>0 heute</span><span class='pill ok'>im Scout</span></div></div>
+<div class="card"><h3>Verlauf (Scout · Analyst · Builder · Briefing)</h3><div class='empty'><b>Noch kein Verlauf</b>Ab morgen siehst du hier jede Nacht auf einen Blick.</div></div></section>
+<footer>Automatisch erstellt · Daten aus öffentlichen Quellen, jede Aussage mit Link<br>Keine Anlageberatung · Schätzungen sind als solche markiert</footer>
+</main>
+<nav class="bnav" aria-label="Menü"><label for="t1"><span>◎</span>Heute</label><label for="t2"><span>💡</span>Ideen</label><label for="t3"><span>📈</span>Probleme</label><label for="t4"><span>💬</span>Belege</label><label for="t5"><span>🛰</span>Quellen</label></nav>
+</body></html>

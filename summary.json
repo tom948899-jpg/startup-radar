@@ -1,0 +1,19 @@
+{
+ "generated": "2026-10-19T18:22:09+02:00",
+ "today": "2026-10-19",
+ "stages": {
+  "scout": "pending",
+  "analyst": "pending",
+  "builder": "pending",
+  "brief": "pending"
+ },
+ "raw_records_latest": 0,
+ "raw_file": null,
+ "pains_in_db": 0,
+ "pains_kept_latest": 0,
+ "ideas_pitched_total": 0,
+ "latest_brief": null,
+ "top_pains": [],
+ "sources_ok": 12,
+ "sources_total": 18
+}

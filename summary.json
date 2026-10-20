@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-20T07:31:09+02:00",
+ "generated": "2026-10-20T19:29:11+02:00",
  "today": "2026-10-20",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
-  "brief": "pending"
+  "brief": "ok"
  },
  "raw_records_latest": 1261,
  "raw_file": "2026-10-20.jsonl",
@@ -30,6 +30,66 @@
    "trend": null
   }
  ],
- "sources_ok": 16,
- "sources_total": 18
+ "sources_ok": 19,
+ "sources_total": 22,
+ "quality_latest": {
+  "date": "2026-10-20",
+  "raw_records": 1261,
+  "unique": 1250,
+  "useful": 383,
+  "useful_share": 0.306,
+  "near_duplicates": 11
+ },
+ "recurring_pains": [
+  {
+   "id": "wp-plugin-update-breakage",
+   "nights_seen": 1,
+   "trend": "neu"
+  },
+  {
+   "id": "shopify-po-receiving-reorder",
+   "nights_seen": 1,
+   "trend": "neu"
+  },
+  {
+   "id": "shopify-support-unreachable",
+   "nights_seen": 1,
+   "trend": "neu"
+  },
+  {
+   "id": "subscription-trial-forgot-cancel",
+   "nights_seen": 1,
+   "trend": "neu"
+  },
+  {
+   "id": "ecommerce-email-tool-cost",
+   "nights_seen": 1,
+   "trend": "neu"
+  },
+  {
+   "id": "etsy-ai-art-filter",
+   "nights_seen": 1,
+   "trend": "neu"
+  },
+  {
+   "id": "shopify-admin-redesign-ux",
+   "nights_seen": 1,
+   "trend": "neu"
+  },
+  {
+   "id": "contractor-invoicing-app-billing",
+   "nights_seen": 1,
+   "trend": "neu"
+  },
+  {
+   "id": "shopify-bulk-editor-columns",
+   "nights_seen": 1,
+   "trend": "neu"
+  },
+  {
+   "id": "budget-app-sync-forecast",
+   "nights_seen": 1,
+   "trend": "neu"
+  }
+ ]
 }

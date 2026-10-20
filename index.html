@@ -54,28 +54,242 @@ footer{font-size:11.5px;color:var(--mut);margin-top:18px;line-height:1.5;text-al
 <input type="radio" name="t" id="t1" checked><input type="radio" name="t" id="t2"><input type="radio" name="t" id="t3"><input type="radio" name="t" id="t4"><input type="radio" name="t" id="t5">
 <main>
 <div class="top"><div class="logo"><i>◎</i><div><h1>Startup-Radar</h1><div class="mut sm">Echte Probleme → echte Ideen</div></div></div>
-<div class="mut sm" style="text-align:right">Stand<br><b style="color:var(--txt)">19.10. 20:23</b></div></div>
-<div class="hero"><div class="lbl">Heute Nacht · Montag, 19.10.</div>
-<div class="big">Erster Lauf heute Nacht um 01:00. Danach füllt sich alles automatisch.</div><div class="prog"><em style="width:0%"></em></div><div class="kgrid"><div class='k'><span>Beschwerden</span><b>0</b><i>letzte Nacht</i></div><div class='k'><span>Probleme ≥18</span><b>0</b><i>letzte Analyse</i></div><div class='k'><span>In Datenbank</span><b>0</b><i>laufend</i></div><div class='k'><span>Ideen gesamt</span><b>0</b><i>nie doppelt</i></div></div></div>
+<div class="mut sm" style="text-align:right">Stand<br><b style="color:var(--txt)">20.10. 05:06</b></div></div>
+<div class="hero"><div class="lbl">Heute Nacht · Dienstag, 20.10.</div>
+<div class="big">2 von 4 Schritten fertig.</div><div class="prog"><em style="width:50%"></em></div><div class="kgrid"><div class='k'><span>Beschwerden</span><b>1261</b><i>letzte Nacht</i></div><div class='k'><span>Probleme ≥18</span><b>3</b><i>letzte Analyse</i></div><div class='k'><span>In Datenbank</span><b>3</b><i>laufend</i></div><div class='k'><span>Ideen gesamt</span><b>3</b><i>nie doppelt</i></div></div></div>
 
-<section class="view v1"><div class="card"><h3>Ablauf heute Nacht</h3><div class='stage'><div class='sdot s-wait'></div>
-<div class='sbody'><div class='srow'><b>Scout</b><span class='mut'>01:00</span></div><div class='mut sm'>sammelt echte Beschwerden</div></div><span class='pill wait'>○ wartet</span></div><div class='stage'><div class='sdot s-wait'></div>
-<div class='sbody'><div class='srow'><b>Analyst</b><span class='mut'>03:00</span></div><div class='mut sm'>bewertet &amp; clustert</div></div><span class='pill wait'>○ wartet</span></div><div class='stage'><div class='sdot s-wait'></div>
+<section class="view v1"><div class="card"><h3>Ablauf heute Nacht</h3><div class='stage'><div class='sdot s-ok'></div>
+<div class='sbody'><div class='srow'><b>Scout</b><span class='mut'>01:00</span></div><div class='mut sm'>1261 records (x 217, reddit 202, discourse 263, hn 163, lemmy 123, wordpress 61, github 59, bluesky 56, steam 44, youtube 23, appstore 21, play 9, others 20); r/de 422, producthunt-api limit10 complexity error, youtube-api 0</div></div><span class='pill ok'>✓ fertig</span></div><div class='stage'><div class='sdot s-ok'></div>
+<div class='sbody'><div class='srow'><b>Analyst</b><span class='mut'>03:00</span></div><div class='mut sm'>1261 records, 64 used as evidence, the rest noise. 1 live pain (shopify-po-receiving-reorder, 18/25, borderline, heavily crowded with apps), 2 killed with 20+ (contractor-invoicing 21: free Zoho/Wave/Square; wp-plugin-update-breakage 20: WP Umbrella/ManageWP), 10 clusters under 18. pains_db: 3 new, nothing recurring yet. validate OK (validator now skips raw/*.sources.md and .lock, which caused a false BROKEN).</div></div><span class='pill ok'>✓ fertig</span></div><div class='stage'><div class='sdot s-wait'></div>
 <div class='sbody'><div class='srow'><b>Builder</b><span class='mut'>05:00</span></div><div class='mut sm'>baut 3 Ideen</div></div><span class='pill wait'>○ wartet</span></div><div class='stage'><div class='sdot s-wait'></div>
 <div class='sbody'><div class='srow'><b>Briefing</b><span class='mut'>07:30</span></div><div class='mut sm'>dein Morgen-Update</div></div><span class='pill wait'>○ wartet</span></div></div>
-<div class="card"><h3>Top-Ideen </h3><div class='empty'><b>Noch keine Ideen</b>Der Builder liefert die ersten 3 Ideen morgen um 05:00 – hier erscheinen sie dann.</div></div>
-<div class="card"><h3>Stärkste Probleme</h3><div class='empty'><b>Startet heute Nacht</b>Der Scout sucht ab 01:00 in allen Branchen nach echten Beschwerden.</div></div></section>
+<div class="card"><h3>Top-Ideen vom 20.10.</h3><div class='idea'><div class='inum'>1</div><div><b>Wareneingang-Scan für Ein-Lager-Shops</b>
+<div class='mut sm'>Handy-Web-App: Lieferung scannen, Bestand in Shopify direkt richtig buchen, ohne Transfer-Umweg, Einmalpreis statt Abo.</div></div></div><div class='idea'><div class='inum'>2</div><div><b>Abo-Falle-Ausstieg für Handwerker-Rechnungen (Umzugs-Service)</b>
+<div class='mut sm'>Festpreis-Service per Chat: aus teuren, kaputten Rechnungs-Apps in ein kostenloses Tool umziehen, inkl. CSV-Umwandler.</div></div></div><div class='idea'><div class='inum'>3</div><div><b>Update-Notdienst für kaputte WordPress-/WooCommerce-Seiten</b>
+<div class='mut sm'>Festpreis-Reparatur in 24 h nach kaputtem Update, nur schriftlich, mit Vorbeuge-Empfehlung danach.</div></div></div></div>
+<div class="card"><h3>Stärkste Probleme</h3><div class='src'><span class='sname'>Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support</span><span class='score hi' style='font-size:15px'>21<small>/25</small></span></div><div class='src'><span class='sname'>WordPress/WooCommerce-Updates (z. B. Contact Form 7 PHP 8.3, WooCommerce 11.2) legen Shops und Kundenseiten lahm</span><span class='score ' style='font-size:15px'>20<small>/25</small></span></div><div class='src'><span class='sname'>Shopify-Händler: Wareneingang/Bestellungen (PO) und Nachbestellen seit Stocky-Aus und neuem PO-Workflow mühsam</span><span class='score ' style='font-size:15px'>18<small>/25</small></span></div></div></section>
 
-<section class="view v2"><div class="card"><h3>Ideen</h3><div class='empty'><b>Noch keine Ideen</b>Der Builder liefert die ersten 3 Ideen morgen um 05:00 – hier erscheinen sie dann.</div></div>
+<section class="view v2"><div class="card"><h3>Ideen</h3><div class='idea'><div class='inum'>1</div><div><b>Wareneingang-Scan für Ein-Lager-Shops</b>
+<div class='mut sm'>Handy-Web-App: Lieferung scannen, Bestand in Shopify direkt richtig buchen, ohne Transfer-Umweg, Einmalpreis statt Abo.</div></div></div><div class='idea'><div class='inum'>2</div><div><b>Abo-Falle-Ausstieg für Handwerker-Rechnungen (Umzugs-Service)</b>
+<div class='mut sm'>Festpreis-Service per Chat: aus teuren, kaputten Rechnungs-Apps in ein kostenloses Tool umziehen, inkl. CSV-Umwandler.</div></div></div><div class='idea'><div class='inum'>3</div><div><b>Update-Notdienst für kaputte WordPress-/WooCommerce-Seiten</b>
+<div class='mut sm'>Festpreis-Reparatur in 24 h nach kaputtem Update, nur schriftlich, mit Vorbeuge-Empfehlung danach.</div></div></div></div><div class="card"><h3>Ganzes Briefing</h3><div class='brief'><div class='mut sm'>Briefing vom 20.10.</div><h2 class='mdh'>Startup-Briefing 20.10.2026 (Builder)</h2>
+<p><b>Kurz gesagt:</b> Ein dünner Tag. Von 1.261 Rohdaten hat der Analyst nur 64 als echte Belege behalten. Es gibt <b>einen lebenden Schmerz</b> (Shopify-Wareneingang, 18/25, knapp über der Grenze) und <b>zwei starke, aber vom Analysten getötete Schmerzen</b> (Rechnungs-Apps 21/25, WordPress-Updates 20/25). Ich habe trotzdem aus allen drei eine Idee gebaut, aber bei den zwei getöteten eine andere Lösungsart gewählt, die genau den Todesgrund umgeht. Ehrliches Urteil vorab: Keine der drei ist heute ein klares „Bau das jetzt“. Idee 1 ist die einzige echte Produktidee, Idee 2 und 3 sind kleine Dienstleistungen, die schnell Geld bringen könnten, aber an Vertrauen und Zeit scheitern können.</p>
+<p>Grundlage: `analysis/2026-10-20.json` (Analyst-Lauf heute, Status ok). Alle Zitate sind wörtlich aus `raw/2026-10-20.jsonl`, alle Links stehen dort oder in der Konkurrenzliste des Analysten. Preise und Zeitangaben sind <b>Schätzungen</b>, nicht geprüft.</p>
+<p>Genutzte Experten-Rollen (agency-agents): Product Manager (Problem, Nicht-Ziele, Erfolgsmaß), Rapid Prototyper (Kern-Hypothese, nur Minimal-Funktionen, Feedback ab Tag 1), Software Architect (Entscheidung mit Abwägung und Fehlerfällen), Testing Reality Checker (Standard-Urteil „NEEDS WORK“, nur Belege zählen).</p>
+<p>---</p>
+<h3 class='mdh'>Idee 1: Wareneingang-Scan für Ein-Lager-Shops</h3>
+<p><b>Pitch:</b> Lieferung kommt, Handy raus, Barcodes scannen, Bestand in Shopify ist richtig. Ohne Bestellung-zu-Transfer-Umweg, ohne Monatsabo.</p>
+<p><b>Wer hat den Schmerz genau?</b></p>
+<ul>
+<li>Rolle: Inhaber oder Lagerhilfe in einem kleinen Shopify-Shop, der Ware von Lieferanten nachkauft und selbst einlagert.</li>
+<li>Firmengröße: 1 bis 5 Personen, <b>ein einziger Lagerort</b>, kleiner bis mittlerer Katalog (Schätzung: unter 500 Varianten).</li>
+<li>Moment: Der Karton vom Lieferanten steht im Laden. Seit Shopify die App Stocky am 31.08.2026 abgeschaltet hat, muss der Wareneingang über eine „Transfer“-Buchung laufen, Teillieferungen sind schwer zu sehen.</li>
+</ul>
+<p><b>3 Belege (wörtlich):</b></p>
+<blockquote>„Manually updating linked inventory transfers for every new purchase order item is frustratingly redundant.“</blockquote>
+<blockquote><a href="https://community.shopify.com/t/purchase-order-to-sync-with-transfer/682403/4" target="_blank" rel="noopener">Shopify Community, 15.10.2026</a></blockquote>
+<blockquote>„I can understand the frustration here, especially for a merchant with only one location.“</blockquote>
+<blockquote><a href="https://community.shopify.com/t/new-purchase-order-process/629542/54" target="_blank" rel="noopener">Shopify Community, 04.10.2026</a> (Achtung: Antwort im Thread, Verfasser ist vermutlich kein Händler, nicht geprüft. Zeigt aber, dass gerade Ein-Lager-Shops betroffen sind.)</blockquote>
+<blockquote>„i&#x27;ve been using shopify&#x27;s native low stock email alerts combined with a simple google sheet that pulls daily sales via the admin api. it&#x27;s kinda manual“</blockquote>
+<blockquote><a href="https://community.shopify.com/t/best-inventory-replenishment-tool/570393/18" target="_blank" rel="noopener">Shopify Community, 19.10.2026</a> (Händler baut sich selbst einen Workaround, gutes Zeichen für echten Bedarf.)</blockquote>
+<p><b>Pain-Score (Analyst):</b> Häufigkeit 3, Intensität 4, Zahlungsbereitschaft 3, Erreichbarkeit 5, Baubarkeit 3 = <b>18/25</b> (Grenzfall, Analyst sagt NEEDS WORK).</p>
+<p><b>Konkurrenz und Lücke:</b></p>
+<ul>
+<li><a href="https://help.shopify.com/en/manual/products/inventory/transitioning-from-stocky" target="_blank" rel="noopener">Shopify eigene Bestellungen + Sidekick</a>: gratis, aber Wareneingang nur über Transfer, keine Teillieferungs-Übersicht.</li>
+<li><a href="https://apps.shopify.com/prediko" target="_blank" rel="noopener">Prediko</a>: 49 bis 199 $/Monat, stark bei Prognosen, für Mini-Shops zu schwer und zu teuer.</li>
+<li><a href="https://apps.shopify.com/ezstock" target="_blank" rel="noopener">EZstock</a>: gratis (5 Bestellungen/Monat), 19 $ oder 49 $/Monat.</li>
+<li><a href="https://apps.shopify.com/storeroom" target="_blank" rel="noopener">Storeroom</a>: 24 $/Monat, Kassen-Fokus, 0 Bewertungen.</li>
+<li><a href="https://apps.shopify.com/inmana-restock" target="_blank" rel="noopener">Inmana Restock</a>: ab 19 $/Monat, 0 Bewertungen.</li>
+<li>Neu am 19.10.: ein Entwickler bietet einen <a href="https://community.shopify.com/t/free-reorder-point-calculator-a-one-time-29-reorder-report-from-your-shopify-csv-exports-no-app-install/700779/1" target="_blank" rel="noopener">kostenlosen Nachbestell-Rechner und einen 29-$-Einmal-Report</a> an. Der deckt aber nur „was nachbestellen“, nicht den Wareneingang.</li>
+<li><b>Lücke:</b> Alle Apps verkaufen das Komplettpaket (Prognose, Bestellung, Lieferanten) im Monatsabo. Für „Karton auspacken und richtig einbuchen“ per Handy-Scan zum Einmalpreis habe ich in den Daten nichts gefunden. Ob einzelne Apps schon einen Handy-Scanner haben, ist <b>nicht geprüft</b>.</li>
+</ul>
+<p><b>Preis (Schätzung):</b> 39 € einmalig pro Shop als Gründerpreis für die ersten 10, später 59 €. Begründung: Händler im Forum wollen ausdrücklich kein weiteres Monatsabo, die günstigsten Abo-Apps kosten 19 bis 24 $/Monat, und der Konkurrent oben verlangt 29 $ einmalig. Ein Einmalpreis knapp darüber ist leicht zu entscheiden.</p>
+<p><b>MVP</b></p>
+<ul>
+<li>Kern-Funktion: Lieferschein als CSV hochladen (oder ohne Liste einfach scannen), Barcodes mit der iPhone-Kamera scannen, Mengen bestätigen, ein Knopf bucht den Bestand in Shopify hoch. Teillieferung bleibt als „offen“ sichtbar.</li>
+<li>Weglassen: Prognosen, mehrere Lager, Lieferanten-E-Mails, Shopify-App-Store-Eintrag, Bezahlsystem (am Anfang manuelle Rechnung).</li>
+<li>Stack: Web-App fürs Handy wie deine Pause-App (HTML/JS), Barcode-Scan mit einer JS-Bibliothek wie zxing-js (Safari hat keine eingebaute Barcode-Erkennung), kleiner Server (z. B. Cloudflare Worker) der den Shopify-Zugangsschlüssel hält, denn der darf nie im Browser liegen. Shopify Admin GraphQL: Variante per Barcode suchen, Bestand anpassen.</li>
+<li>Architektur-Entscheidung (Software Architect): Wir buchen den Bestand direkt an und <b>umgehen</b> Shopifys Bestellobjekt. Grund: Laut Forum-Beitrag vom 16.09. (vom Analysten notiert) hat die Admin-API kein Bestellobjekt, man kann den Shopify-Ablauf also gar nicht reparieren. Preis dafür: Die Bestellung in Shopify bleibt „offen“. Das muss in der Testphase geklärt werden (siehe Risiko).</li>
+<li>14-Tage-Plan (Schätzung: ca. 1 Stunde an Werktagen nach 16 Uhr, 3 bis 4 Stunden am Wochenende):</li>
+<li>Tag 1–2: Shopify-Entwicklershop anlegen (kostenlos für Partner, nicht geprüft), 20 Testprodukte mit Barcodes.</li>
+<li>Tag 3–4: Server mit Zugangsschlüssel, „Variante per Barcode finden“ funktioniert.</li>
+<li>Tag 5–6: Scanner-Seite auf dem iPhone, Mengenzähler.</li>
+<li>Tag 7: Bestand anpassen per Knopf, Protokoll jeder Buchung (zum Rückgängig-Machen).</li>
+<li>Tag 8–9: CSV-Lieferschein einlesen, Abgleich „bestellt vs. gekommen“, Teillieferung offen lassen.</li>
+<li>Tag 10: Feedback-Knopf und einfache Zählung, wie oft gescannt wird (Rapid Prototyper: Messen ab Tag 1).</li>
+<li>Tag 11–12: Selbsttest mit 3 echten Kartons (z. B. Haushaltsartikel mit EAN), Fehlerfälle: unbekannter Barcode, doppelter Scan, kein Netz.</li>
+<li>Tag 13–14: Eine Seite mit Video-GIF, 3 Pilot-Händlern Zugang geben.</li>
+</ul>
+<p><b>Wo die ersten 10 Kunden sind:</b> In genau diesen drei Shopify-Community-Threads (629542 hat 46 Beiträge, laut Analyst über 11 verschiedene Händler, aber viele schon von Mai bis Juni), im Stocky-Umstiegs-Thema und bei Händlern, die dort nach „ohne Monatsabo“ fragen. Achtung: Forenregeln zu Eigenwerbung sind <b>nicht geprüft</b>, also zuerst fragen statt verkaufen.</p>
+<p><b>DM-Entwurf (nur Text, wird nicht gesendet):</b></p>
+<blockquote>Hi, I saw your post about receiving purchase orders since Stocky shut down. I&#x27;m building a tiny phone tool for single-location shops: scan the boxes from your supplier and the stock in Shopify is updated, no transfer step and no monthly fee. Would you try a free test version for one delivery and tell me what&#x27;s missing? No sales pitch, I just want to know if it actually saves you time.</blockquote>
+<p><b>Größtes Risiko:</b> Händler wollen, dass auch die Shopify-Bestellung als „erhalten“ markiert wird. Wenn das nicht geht, ist unser Werkzeug nur halb nützlich. Dazu: 15+ Apps kämpfen um dieselben Händler, und Shopify kann den eigenen Ablauf jederzeit verbessern.</p>
+<p><b>Billigster Test diese Woche (ca. 1 Stunde):</b> In der Shopify Community (über dein eigenes Konto, nur wenn du willst) eine Frage stellen statt werben: „Ein-Lager-Shops: Wäre ein Handy-Scan, der direkt den Bestand bucht, aber die Shopify-Bestellung offen lässt, okay für euch?“ Erfolgsmaß (Product Manager): mindestens 5 Händler-Antworten in 7 Tagen, davon 3 mit „ja, würde ich testen“.</p>
+<h4 class='mdh'>WHAT WOULD KILL THIS IDEA?</h4>
+<ul>
+<li>Unter 3 Händler-Antworten auf die Frage oben: zu wenig Bedarf.</li>
+<li>Händler sagen: „Ohne geschlossene Shopify-Bestellung nutze ich das nicht.“</li>
+<li>Eine der günstigen Apps (EZstock gratis, Storeroom, Wharfly gratis) hat schon einen guten Handy-Scan-Eingang. 30 Minuten App-Store-Beschreibungen lesen klärt das.</li>
+<li>Shopify ändert die Regeln für eigene Apps oder Zugangsschlüssel (nicht geprüft) so, dass ein kleiner Server nicht mehr reicht.</li>
+</ul>
+<p><b>Schlusscheck (Reality Checker):</b></p>
+<ul>
+<li>Zahlt ein Fremder in Woche 1? Eher nein, vermutlich erst nach einem Gratis-Test.</li>
+<li>Zitate echt und verlinkt? Ja, alle drei aus raw, ein Verfasser ist vermutlich kein Händler (oben markiert).</li>
+<li>Schmerzmittel oder Vitamin? Schmerzmittel für Ein-Lager-Shops, aber ein kleines.</li>
+<li>Kann ein großer Konkurrent das am Wochenende kopieren? Ja, Shopify selbst oder eine der Apps. Schutz nur durch Einfachheit und Einmalpreis.</li>
+<li><b>Urteil: NEEDS WORK.</b> Erst den Bedarfstest machen, dann bauen.</li>
+</ul>
+<p>---</p>
+<h3 class='mdh'>Idee 2: Abo-Falle-Ausstieg für Handwerker-Rechnungen (Umzugs-Service)</h3>
+<p><b>Pitch:</b> Ich hole dich in 48 Stunden aus deiner teuren, kaputten Rechnungs-App raus und richte dir ein kostenloses, seriöses Rechnungstool ein. Festpreis, alles per Chat.</p>
+<p><b>Warum diese Lösungsart:</b> Der Analyst hat den Schmerz getötet, weil kostenlose gute Apps schon existieren (Zoho Invoice, Wave, Square) und eine neue App gegen sie keine Chance hat. Der Todesgrund sagt aber auch: Das Problem ist Vertrauen und Vertrieb, nicht das Produkt. Deshalb <b>keine neue App</b>, sondern eine Hilfe beim Wechsel. Das ist kein Rechnungs-App-Pitch.</p>
+<p><b>Wer hat den Schmerz genau?</b></p>
+<ul>
+<li>Rolle: Solo-Handwerker, Reinigungskraft, Kleinunternehmer in den USA, der nur vom Handy aus arbeitet.</li>
+<li>Firmengröße: 1 Person bis kleines Team.</li>
+<li>Moment: Nach der Abbuchung, wenn die App nicht speichert, das Rechnungslimit plötzlich greift oder der Support nicht antwortet und man „eine andere App sucht“.</li>
+</ul>
+<p><b>3 Belege (wörtlich):</b></p>
+<blockquote>„I pay WEEKLY. And have never been able to actually save or send my documents.“</blockquote>
+<blockquote><a href="https://apps.apple.com/us/app/id1606911248?see-all=reviews#review-14671075147" target="_blank" rel="noopener">App Store, 15.10.2026</a></blockquote>
+<blockquote>„Now it only lets me make 10 invoices a month or I have to upgrade for another 300$ to the unlimited.“</blockquote>
+<blockquote><a href="https://apps.apple.com/us/app/id1606911248?see-all=reviews#review-14670493888" target="_blank" rel="noopener">App Store, 15.10.2026</a></blockquote>
+<blockquote>„I been dealing with this over 3 months no one can help resolve the issue honestly Im looking for another app I can only work from my phone“</blockquote>
+<blockquote><a href="https://apps.apple.com/us/app/id1606911248?see-all=reviews#review-14626413808" target="_blank" rel="noopener">App Store, 04.10.2026</a></blockquote>
+<p><b>Pain-Score (Analyst):</b> Häufigkeit 4, Intensität 4, Zahlungsbereitschaft 5, Erreichbarkeit 3, Baubarkeit 5 = <b>21/25</b>, aber <b>vom Analysten getötet</b> (für eine neue App).</p>
+<p><b>Konkurrenz und Lücke:</b></p>
+<ul>
+<li><a href="https://apps.apple.com/us/app/id1606911248" target="_blank" rel="noopener">Invoice Fly</a>: die schlechte Lösung, für die Leute zahlen (98 $/Jahr, 8,99 $ nach 3-Tage-Test laut Bewertungen).</li>
+<li><a href="https://www.zoho.com/us/invoice/mobile-apps/" target="_blank" rel="noopener">Zoho Invoice</a>: kostenlos, 500 Rechnungen/Jahr, Handy-App.</li>
+<li><a href="https://tools8020.com/best/free-invoice-tools/" target="_blank" rel="noopener">Wave / Square Invoices</a>: kostenlos, Square mit Kartengebühren (laut Vergleichsseite).</li>
+<li><b>Lücke:</b> Die guten Gratis-Tools existieren, aber niemand nimmt die Leute im Frust-Moment an die Hand: Kunden und Vorlagen umziehen, Logo rein, erste Rechnung gemeinsam schicken, Erstattung anstoßen. Ob es schon solche Umzugs-Dienste gibt, ist <b>nicht geprüft</b>.</li>
+</ul>
+<p><b>Preis (Schätzung):</b> 49 $ Festpreis für den kompletten Umzug, optional 15 $ Anleitung zum Selbermachen. Begründung: Diese Leute zahlen schon 98 $/Jahr oder wöchentlich und sollen 300 $ für ein Upgrade zahlen. 49 $ einmal, danach 0 $ im Monat, rechnet sich für sie sofort.</p>
+<p><b>MVP</b></p>
+<ul>
+<li>Kern-Funktion: Eine Seite mit Angebot + Kontaktformular (nur schriftlich, kein Telefon, passt zu dir), eine Checkliste für den Umzug, ein kleines Browser-Werkzeug, das eine Kundenliste (CSV) ins Import-Format von Zoho Invoice umwandelt. Die Daten bleiben im Browser, nichts wird hochgeladen.</li>
+<li>Weglassen: eigene Rechnungs-App, Konten bei Kunden-Apps, Buchhaltung, Steuerberatung.</li>
+<li>Stack: statische Seite (GitHub Pages ist hier okay, weil es eine Verkaufsseite ist), Formular-Dienst, Zahlung per Zahlungslink. Konten dafür legst du selbst an, ich lege nichts an.</li>
+<li>14-Tage-Plan (Schätzung, ca. 5 bis 7 Stunden gesamt):</li>
+<li>Tag 1–2: Herausfinden, ob Invoice Fly und Invoice2go überhaupt Kunden und Rechnungen als CSV exportieren (Hilfeseiten lesen). Ohne Export ist der Umzug Handarbeit.</li>
+<li>Tag 3–4: Selbst ein Zoho-Invoice-Gratiskonto anlegen und einen Testumzug mit 10 Fake-Kunden machen, Zeit stoppen.</li>
+<li>Tag 5–6: CSV-Umwandler im Browser bauen.</li>
+<li>Tag 7–8: Angebotsseite auf Englisch, mit ehrlichem Hinweis „unabhängig, kein Partner von Zoho“.</li>
+<li>Tag 9–14: Die ersten 3 Umzüge zum halben Preis gegen ehrliches Feedback.</li>
+</ul>
+<p><b>Wo die ersten 10 Kunden sind:</b> Bei Leuten, die öffentlich über diese Apps schimpfen. App-Store-Bewertungen haben keine Kontaktmöglichkeit, deshalb: Beiträge auf X über diese Apps (mit dem X-Lesezugriff findbar), Reddit-Gruppen für kleine Firmen und Handwerker. Erreichbarkeit nur 3/5, das ist die Schwachstelle.</p>
+<p><b>DM-Entwurf (nur Text, wird nicht gesendet):</b></p>
+<blockquote>Hey, saw your post about your invoice app charging you and not saving your invoices. That sounds really frustrating. There are solid free invoice tools that work fine from your phone. If you want, I can move your clients and templates over for you and help you send the first invoice, all by text, no calls. Happy to just point you to the free options too if you&#x27;d rather do it yourself.</blockquote>
+<p><b>Größtes Risiko:</b> Vertrauen. Würde ein fremder Handwerker einem unbekannten 18-Jährigen seine Kundenliste geben? Dazu kommt: Wer frustriert ist, sucht vielleicht einfach selbst die nächste App und zahlt niemandem etwas.</p>
+<p><b>Billigster Test diese Woche (ca. 1 Stunde):</b> Mit dem X-Lesezugriff zählen, wie viele Beiträge der letzten 30 Tage über Abbuchungen oder Bugs dieser Rechnungs-Apps klagen und ob die Leute nach Alternativen fragen. Erfolgsmaß: mindestens 15 echte Beiträge, davon 5 mit „suche Alternative“. Erst dann die Seite bauen.</p>
+<h4 class='mdh'>WHAT WOULD KILL THIS IDEA?</h4>
+<ul>
+<li>Die Apps erlauben keinen Export: Umzug = Abtippen, das rechnet sich für 49 $ nicht.</li>
+<li>Unter 15 öffentliche Beschwerden in 30 Tagen: zu wenig Leute erreichbar.</li>
+<li>Niemand antwortet auf freundliche Hilfe-Angebote, oder alle nehmen nur den kostenlosen Tipp.</li>
+<li>Rechtliches: Nebentätigkeit in der Ausbildung und Gewerbe müssen vorher mit Stadtwerke Bernau und dem Gewerbeamt geklärt sein (allgemeiner Hinweis, nicht für deinen Vertrag geprüft).</li>
+</ul>
+<p><b>Schlusscheck (Reality Checker):</b></p>
+<ul>
+<li>Zahlt ein Fremder in Woche 1? Möglich, weil der Frust frisch ist und der Preis klein, aber nur, wenn das Vertrauen klappt.</li>
+<li>Zitate echt und verlinkt? Ja, alle drei aus raw.</li>
+<li>Schmerzmittel oder Vitamin? Schmerzmittel im Frust-Moment, danach schnell vergessen.</li>
+<li>Kann ein großer Konkurrent das am Wochenende kopieren? Zoho oder Wave könnten selbst eine Umzugshilfe anbieten. Das wäre für die Kunden gut und für uns das Ende.</li>
+<li><b>Urteil: NEEDS WORK, Risiko hoch.</b> Eher ein kleiner Nebenverdienst-Test als ein Startup.</li>
+</ul>
+<p>---</p>
+<h3 class='mdh'>Idee 3: Update-Notdienst für kaputte WordPress- und WooCommerce-Seiten</h3>
+<p><b>Pitch:</b> Nach dem Update ist deine Seite kaputt oder der Checkout geht nicht mehr? Schick ein Ticket, du bekommst innerhalb von 24 Stunden eine funktionierende Seite zurück. Festpreis, alles schriftlich.</p>
+<p><b>Warum diese Lösungsart:</b> Der Analyst hat den Schmerz getötet, weil sichere Update-Werkzeuge schon für etwa 2 € pro Seite existieren (WP Umbrella, ManageWP) und die Betroffenen sie einfach nicht kannten. Vorbeugung ist also gelöst. <b>Wenn die Seite aber schon kaputt ist</b>, hilft ein Vorbeuge-Tool nicht mehr. Deshalb keine Software, sondern eine Reparatur zum Festpreis, mit dem Vorbeuge-Tool als Empfehlung danach.</p>
+<p><b>Wer hat den Schmerz genau?</b></p>
+<ul>
+<li>Rolle: Inhaber eines kleinen WooCommerce-Shops oder Freelancer, der Seiten für Kunden betreut.</li>
+<li>Firmengröße: 1 bis 10 Personen, ohne eigenen Entwickler.</li>
+<li>Moment: Direkt nach einem automatischen Update (z. B. Contact Form 7 verlangt plötzlich PHP 8.3, WooCommerce 11.2 bricht Checkout oder Versand), die Seite ist offline oder verkauft nicht mehr.</li>
+</ul>
+<p><b>3 Belege (wörtlich):</b></p>
+<blockquote>„An automatic update should not take a working website offline because of a major compatibility requirement like this.“</blockquote>
+<blockquote><a href="https://wordpress.org/support/topic/auto-update-broke-my-website-due-to-php-8-3-requirement/" target="_blank" rel="noopener">wordpress.org Support, 07.10.2026</a></blockquote>
+<blockquote>„An update broke 5 of our clients sites (without even downloading the update).“</blockquote>
+<blockquote><a href="https://wordpress.org/support/topic/broken-sites-after-insisting-on-php-8-3/" target="_blank" rel="noopener">wordpress.org Support, 10.10.2026</a></blockquote>
+<blockquote>„I had to restore my site from backup, since a rollback didn’t fix the issue it caused with the gallery.“</blockquote>
+<blockquote><a href="https://wordpress.org/support/topic/v11-2-causes-issues-with-the-product-image-gallery/" target="_blank" rel="noopener">wordpress.org Support, 09.10.2026</a></blockquote>
+<p>Weitere Belege im Analysten-Bericht: Checkout-Fehler nach 11.2.0, verschwundene Versandart, versteckter „Bestellung hinzufügen“-Knopf.</p>
+<p><b>Pain-Score (Analyst):</b> Häufigkeit 4, Intensität 5, Zahlungsbereitschaft 4, Erreichbarkeit 4, Baubarkeit 3 = <b>20/25</b>, aber <b>vom Analysten getötet</b> (für ein Vorbeuge-Tool).</p>
+<p><b>Konkurrenz und Lücke:</b></p>
+<ul>
+<li><a href="https://wp-umbrella.com/pricing/" target="_blank" rel="noopener">WP Umbrella</a>: ca. 1,99 € pro Seite und Monat, sichere Updates mit Rücksprung. Vorbeugung, keine Reparatur.</li>
+<li><a href="https://managewp.com/features/safe-updates/" target="_blank" rel="noopener">ManageWP (GoDaddy)</a>: Sichere Updates mit 2-$-Zusatz pro Seite. Vorbeugung.</li>
+<li>Bezahlte WordPress-Reparaturdienste gibt es sicher schon (z. B. Freelancer-Plattformen). Namen, Preise und Qualität sind <b>nicht geprüft</b>, deshalb ohne Link.</li>
+<li><b>Lücke (Hypothese):</b> Ein günstiger, schneller Festpreis für genau einen Update-Schaden, nur schriftlich, mit Anleitung, wie man es danach mit einem 2-€-Tool verhindert.</li>
+</ul>
+<p><b>Preis (Schätzung):</b> 79 € pro Reparatur (Seite wieder lauffähig: Plugin zurücksetzen, PHP-Version prüfen, Cache leeren), 129 € wenn der Shop-Checkout betroffen ist. Geld zurück, wenn nicht gelöst. Begründung: Ein Shop ohne Checkout verliert jeden Tag Umsatz, ein Festpreis unter 100 € ist schnell entschieden. Marktpreise für solche Reparaturen sind nicht geprüft.</p>
+<p><b>MVP</b></p>
+<ul>
+<li>Kern-Funktion: Ticket-Formular (Fehlerbild, Hosting, Screenshot), ein festes Reparatur-Handbuch für die häufigsten Fälle (Plugin-Version zurücksetzen, PHP-Version im Hosting umstellen, Konflikt per Plugin-Abschaltung finden, Backup zurückspielen), Abschluss-Bericht mit Empfehlung für Vorbeugung.</li>
+<li>Weglassen: Monitoring-Software, eigenes Plugin, Wartungsverträge, Telefon-Support.</li>
+<li>Stack: Lokales Test-Labor mit Docker (WordPress mit PHP 8.0 und 8.3 nebeneinander), WP-CLI, eine Ticket-Seite. Zugang beim Kunden nur über ein eigenes, zeitlich begrenztes Admin-Konto, das er danach löscht.</li>
+<li>14-Tage-Plan (Schätzung, ca. 8 Stunden gesamt):</li>
+<li>Tag 1–3: Docker-Labor bauen, den Contact-Form-7-PHP-8.3-Fehler und den WooCommerce-11.2-Checkout-Fehler nachstellen.</li>
+<li>Tag 4–6: Jeden Fall reparieren und die Zeit stoppen. Daraus wird das Handbuch.</li>
+<li>Tag 7–9: Kostenlos in 3 bis 5 öffentlichen Support-Threads helfen (ohne Werbung), um zu sehen, ob deine Lösungen wirklich klappen.</li>
+<li>Tag 10–12: Ticket-Seite und Bericht-Vorlage.</li>
+<li>Tag 13–14: 2 Testkunden aus dem Bekanntenkreis oder von Freelancern mit vielen Kundenseiten.</li>
+</ul>
+<p><b>Wo die ersten 10 Kunden sind:</b> Freelancer und kleine Agenturen, die viele Kundenseiten betreuen (wie der Verfasser mit „5 client sites“), sowie Shop-Besitzer, die öffentlich über kaputte Updates schreiben. Wichtig: Soweit ich weiß, verbieten die wordpress.org-Foren, dort bezahlte Hilfe anzubieten (vor Nutzung selbst prüfen). Dort also nur kostenlos helfen, verkauft wird woanders.</p>
+<p><b>DM-Entwurf (nur Text, wird nicht gesendet):</b></p>
+<blockquote>Hi, I read that the Contact Form 7 update took several of your client sites offline. I&#x27;ve been reproducing exactly that PHP 8.3 issue in a test setup and wrote down the fastest fix. If it happens again, I can fix a broken site within 24 hours for a fixed price, all by message, money back if it&#x27;s not solved. Happy to send you the fix notes for free either way.</blockquote>
+<p><b>Größtes Risiko:</b> Deine Zeit und dein Können. Notfälle kommen tagsüber, du bist bis 16 Uhr im Betrieb. Und manche Fälle (Datenbank kaputt, eigener Code) sind in 24 Stunden nicht lösbar. Dazu Haftung: Wenn beim Reparieren Daten verloren gehen, bist du verantwortlich.</p>
+<p><b>Billigster Test diese Woche (ca. 2 Stunden):</b> Den Contact-Form-7-PHP-8.3-Fehler im Docker-Labor nachstellen und reparieren. Erfolgsmaß: Du schaffst es in unter 1 Stunde und kannst die Lösung in 5 Schritten aufschreiben. Wenn nicht, ist der Notdienst (noch) nichts für dich.</p>
+<h4 class='mdh'>WHAT WOULD KILL THIS IDEA?</h4>
+<ul>
+<li>Du brauchst für die nachgestellten Fälle mehr als 1 Stunde pro Fall: 79 € lohnen sich dann nicht.</li>
+<li>Kunden wollen Hilfe sofort, also tagsüber, wenn du arbeitest.</li>
+<li>Kein Shop-Besitzer gibt einem Unbekannten Admin-Zugang.</li>
+<li>Nebentätigkeit, Gewerbe und Haftung sind ohne Versicherung zu riskant (allgemeiner Hinweis, nicht geprüft).</li>
+</ul>
+<p><b>Schlusscheck (Reality Checker):</b></p>
+<ul>
+<li>Zahlt ein Fremder in Woche 1? Ja, wenn er gerade einen kaputten Checkout hat und du schnell antwortest. Das ist der stärkste Kauf-Moment der drei Ideen.</li>
+<li>Zitate echt und verlinkt? Ja, alle drei aus raw.</li>
+<li>Schmerzmittel oder Vitamin? Klares Schmerzmittel.</li>
+<li>Kann ein großer Konkurrent das am Wochenende kopieren? Es gibt schon viele Reparatur-Anbieter. Der Vorteil wäre nur Preis und Geschwindigkeit.</li>
+<li><b>Urteil: NEEDS WORK.</b> Der Kauf-Moment ist stark, aber deine Verfügbarkeit passt schlecht zu Notfällen.</li>
+</ul>
+<p>---</p>
+<h3 class='mdh'>Mein Fazit für heute</h3>
+<p>Wenn du diese Woche nur eins machst: <b>den Docker-Test aus Idee 3</b> (2 Stunden, du lernst auf jeden Fall etwas) oder <b>die Händler-Frage aus Idee 1</b> (1 Stunde, klärt, ob es Bedarf gibt). Idee 2 würde ich nur angehen, wenn der X-Zähltest überraschend stark ausfällt. Beweise gehen vor Begeisterung: Morgen schaue ich, ob einer dieser Schmerzen wiederkommt. Ein Schmerz, der mehrere Wochen auftaucht, ist viel mehr wert als ein starker Einzeltag.</p></div></div>
 <div class="card"><h3>Regeln</h3><div class="rules"><div>Nur echte Zitate mit Link – nichts erfunden</div><div>Nur Probleme mit ≥ 18 von 25 Punkten</div><div>3–5 Konkurrenten pro Problem geprüft</div><div>Keine Idee wird zweimal vorgeschlagen</div><div>Nichts wird gepostet, gekauft oder angemeldet ohne dein Okay</div></div></div></section>
 
-<section class="view v3"><div class="card"><h3>Problem-Rangliste</h3><div class='empty'><b>Noch keine Schmerzpunkte</b>Nach dem ersten Analyst-Lauf (03:00) stehen hier alle Probleme mit ≥ 18/25 Punkten – mit Trend über die Wochen.</div></div></section>
+<section class="view v3"><div class="card"><h3>Problem-Rangliste</h3><details class='pain'><summary><span class='rank'>1</span><span class='ptitle'>Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support
+<span class='mut sm'>invoicing-apps · 1 Wo. · 11 Belege</span></span>
+<span class='score hi'>21<small>/25</small></span>
+<span class='trend '>neu</span></summary>
+<div class='pdet'><div class='bars'><div class='bar'><span>Häufigkeit</span><i><em style='width:80%'></em></i><b>4</b></div><div class='bar'><span>Schmerz</span><i><em style='width:80%'></em></i><b>4</b></div><div class='bar'><span>Zahlungsbereitschaft</span><i><em style='width:100%'></em></i><b>5</b></div><div class='bar'><span>Erreichbarkeit</span><i><em style='width:60%'></em></i><b>3</b></div><div class='bar'><span>Baubar allein</span><i><em style='width:100%'></em></i><b>5</b></div></div><div class='mut sm'>Zuerst gesehen 20.10. · zuletzt 20.10. · killed</div></div></details><details class='pain'><summary><span class='rank'>2</span><span class='ptitle'>WordPress/WooCommerce-Updates (z. B. Contact Form 7 PHP 8.3, WooCommerce 11.2) legen Shops und Kundenseiten lahm
+<span class='mut sm'>wordpress-smb · 1 Wo. · 9 Belege</span></span>
+<span class='score '>20<small>/25</small></span>
+<span class='trend '>neu</span></summary>
+<div class='pdet'><div class='bars'><div class='bar'><span>Häufigkeit</span><i><em style='width:80%'></em></i><b>4</b></div><div class='bar'><span>Schmerz</span><i><em style='width:100%'></em></i><b>5</b></div><div class='bar'><span>Zahlungsbereitschaft</span><i><em style='width:80%'></em></i><b>4</b></div><div class='bar'><span>Erreichbarkeit</span><i><em style='width:80%'></em></i><b>4</b></div><div class='bar'><span>Baubar allein</span><i><em style='width:60%'></em></i><b>3</b></div></div><div class='mut sm'>Zuerst gesehen 20.10. · zuletzt 20.10. · killed</div></div></details><details class='pain'><summary><span class='rank'>3</span><span class='ptitle'>Shopify-Händler: Wareneingang/Bestellungen (PO) und Nachbestellen seit Stocky-Aus und neuem PO-Workflow mühsam
+<span class='mut sm'>ecommerce-merchants · 1 Wo. · 3 Belege</span></span>
+<span class='score '>18<small>/25</small></span>
+<span class='trend '>neu</span></summary>
+<div class='pdet'><div class='bars'><div class='bar'><span>Häufigkeit</span><i><em style='width:60%'></em></i><b>3</b></div><div class='bar'><span>Schmerz</span><i><em style='width:80%'></em></i><b>4</b></div><div class='bar'><span>Zahlungsbereitschaft</span><i><em style='width:60%'></em></i><b>3</b></div><div class='bar'><span>Erreichbarkeit</span><i><em style='width:100%'></em></i><b>5</b></div><div class='bar'><span>Baubar allein</span><i><em style='width:60%'></em></i><b>3</b></div></div><div class='mut sm'>Zuerst gesehen 20.10. · zuletzt 20.10. · alive</div></div></details></div></section>
 
-<section class="view v4"><div class="card"><h3>Belege – echte Stimmen</h3><div class='empty'><b>Noch keine Belege</b>Jede Beschwerde hier ist ein echtes Zitat mit Link – nichts wird erfunden. Die ersten kommen heute Nacht.</div></div>
-</section>
+<section class="view v4"><div class="card"><h3>Belege – echte Stimmen</h3><a class='quote' href='https://community.shopify.com/t/purchase-order-to-sync-with-transfer/682403/4' target='_blank' rel='noopener'><p>„Manually updating linked inventory transfers for every new purchase order item is frustratingly redundant.“</p>
+<div class='qmeta'><span>Shopify-Händler: Wareneingang/Bestellungen (PO) und Nachbestellen seit Stocky-Aus und neuem PO-Workflow mühsam</span><span>community.shopify.com · 15.10. ↗</span></div></a><a class='quote' href='https://apps.apple.com/us/app/id1606911248?see-all=reviews#review-14670493888' target='_blank' rel='noopener'><p>„Now it only lets me make 10 invoices a month or I have to upgrade for another 300$ to the unlimited.“</p>
+<div class='qmeta'><span>Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support</span><span>apps.apple.com · 15.10. ↗</span></div></a><a class='quote' href='https://wordpress.org/support/topic/auto-update-broke-my-website-due-to-php-8-3-requirement/' target='_blank' rel='noopener'><p>„An automatic update should not take a working website offline because of a major compatibility requirement like this.“</p>
+<div class='qmeta'><span>WordPress/WooCommerce-Updates (z. B. Contact Form 7 PHP 8.3, WooCommerce 11.2) legen Shops und Kundenseiten lahm</span><span>wordpress.org · 07.10. ↗</span></div></a><a class='quote' href='https://community.home-assistant.io/t/custom-component-dreame-vacuum/473026/1370' target='_blank' rel='noopener'><p>„...ands-on UI to completely replace the official app. Vaegrim: I really appreciate the way you structured it to make those parts easy to remove I really wish I hadn&#x27;t forgotten to add this to the documentation from the beginning. I will definitely add a &quot;How to strip the paid frontend&quot; section to the docs...“</p>
+<div class='qmeta'><span>smart-home</span><span>community.home-assistant.io · 01.10. ↗</span></div></a><a class='quote' href='https://community.home-assistant.io/t/hass-agent-windows-client-to-receive-notifications-use-commands-sensors-quick-actions-and-more/369094/806' target='_blank' rel='noopener'><p>„...ually seeing network service monitoring for services like DHCP and DNS as well as some of the other Microsoft out of the box services. Oh, and GOD, I wish I could find some Cisco polling for CPU, memory and interfaces on my switches. Since these are VMs, I did not include any audio in or out on these an...“</p>
+<div class='qmeta'><span>smart-home</span><span>community.home-assistant.io · 19.10. ↗</span></div></a><a class='quote' href='https://forum.cursor.com/t/legacy-individual-plan-max-mode-required/164969/1476' target='_blank' rel='noopener'><p>„...Claude, Codex, Devin, and many others. We could also simply accept a new pricing model and move on. But that&#x27;s not really the point. What makes this frustrating is that these were things Cursor had already promised to Legacy users. Many of us stayed with Cursor, continued paying, and made decisions based on t...“</p>
+<div class='qmeta'><span>ai-dev-tools</span><span>forum.cursor.com · 23.09. ↗</span></div></a><a class='quote' href='https://github.com/rayytor/desktop_gifs/issues/93' target='_blank' rel='noopener'><p>„YouTube is blocking GIF comments from desktop (since 14 October 2026). Help wanted. — Long story short: YouTube changed something on its side, and Desktop GIFs can&#x27;t post GIFs right now. It isn&#x27;t your install, your browser, your GIF or your country. Reinstalling, picking another GIF or using a VPN won&#x27;t help. I don&#x27;t h“</p>
+<div class='qmeta'><span>dev-tools</span><span>github.com · 14.10. ↗</span></div></a><a class='quote' href='https://community.home-assistant.io/t/fully-kiosk-browser/41675/613' target='_blank' rel='noopener'><p>„I&#x27;d like to give all FKB HA users a heads-up on Kiosk Satellite. Today I have migrated from FKB to KS - wishing that the latter was available years earlier. It&#x27;s free, opensource and works great. Check: https://community.home-assistant.io/t/looking-for-feedb...“</p>
+<div class='qmeta'><span>smart-home</span><span>community.home-assistant.io · 04.10. ↗</span></div></a></div>
+<div class="card"><h3>Woher die Beschwerden kommen</h3><div class='mixr'><span>Foren (Discourse)</span><i><em style='width:100%'></em></i><b>263</b></div><div class='mixr'><span>X</span><i><em style='width:83%'></em></i><b>217</b></div><div class='mixr'><span>Reddit</span><i><em style='width:77%'></em></i><b>202</b></div><div class='mixr'><span>Hacker News</span><i><em style='width:62%'></em></i><b>163</b></div><div class='mixr'><span>Lemmy/feddit</span><i><em style='width:47%'></em></i><b>123</b></div><div class='mixr'><span>WordPress.org</span><i><em style='width:23%'></em></i><b>61</b></div><div class='mixr'><span>GitHub</span><i><em style='width:22%'></em></i><b>59</b></div><div class='mixr'><span>Bluesky</span><i><em style='width:21%'></em></i><b>56</b></div><div class='mixr'><span>Steam</span><i><em style='width:17%'></em></i><b>44</b></div><div class='mixr'><span>YouTube</span><i><em style='width:9%'></em></i><b>23</b></div></div></section>
 
-<section class="view v5"><div class="card"><h3>Quellen-Check · 19.10.</h3><div class='src'><span class='dot d-ok'></span><span class='sname'>appstore</span><span class='mut sm'>32 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>bluesky</span><span class='mut sm'>5 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>discourse(shopify)</span><span class='mut sm'>50 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>firefox-addons</span><span class='mut sm'>1 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>github</span><span class='mut sm'>5 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>googleplay</span><span class='mut sm'>18 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>hackernews</span><span class='mut sm'>5 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>lemmy(feddit.org)</span><span class='mut sm'>10 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>nodebb(iobroker,de)</span><span class='mut sm'>4 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>producthunt-api</span><span class='mut sm'>2 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>reddit(arctic-shift)</span><span class='mut sm'>5 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>shopify-apps</span><span class='mut sm'>4 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>stackexchange</span><span class='mut sm'>5 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>steam</span><span class='mut sm'>6 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>wordpress(support)</span><span class='mut sm'>30 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>youtube(yt-dlp)</span><span class='mut sm'>16 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-warn'></span><span class='sname'>youtube-api</span><span class='mut sm'>0 Treffer</span><span class='pill warn'>leer</span></div><div class='src'><span class='dot d-wait'></span><span class='sname'>reddit-api</span><span class='mut sm'>0 Treffer</span><span class='pill wait'>Schlüssel fehlt</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>x (MCP)</span><span class='mut sm'>0 heute</span><span class='pill ok'>im Scout</span></div></div>
-<div class="card"><h3>Verlauf (Scout · Analyst · Builder · Briefing)</h3><div class='empty'><b>Noch kein Verlauf</b>Ab morgen siehst du hier jede Nacht auf einen Blick.</div></div></section>
+<section class="view v5"><div class="card"><h3>Quellen-Check · 20.10.</h3><div class='src'><span class='dot d-ok'></span><span class='sname'>appstore</span><span class='mut sm'>31 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>bluesky</span><span class='mut sm'>5 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>discourse(shopify)</span><span class='mut sm'>50 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>firefox-addons</span><span class='mut sm'>1 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>github</span><span class='mut sm'>5 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>googleplay</span><span class='mut sm'>21 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>hackernews</span><span class='mut sm'>5 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>lemmy(feddit.org)</span><span class='mut sm'>10 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>nodebb(iobroker,de)</span><span class='mut sm'>4 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>producthunt-api</span><span class='mut sm'>1 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>reddit(arctic-shift)</span><span class='mut sm'>5 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>shopify-apps</span><span class='mut sm'>5 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>stackexchange</span><span class='mut sm'>5 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>steam</span><span class='mut sm'>6 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>wordpress(support)</span><span class='mut sm'>30 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>youtube(yt-dlp)</span><span class='mut sm'>16 Treffer</span><span class='pill ok'>läuft</span></div><div class='src'><span class='dot d-warn'></span><span class='sname'>youtube-api</span><span class='mut sm'>0 Treffer</span><span class='pill warn'>leer</span></div><div class='src'><span class='dot d-wait'></span><span class='sname'>reddit-api</span><span class='mut sm'>0 Treffer</span><span class='pill wait'>Schlüssel fehlt</span></div><div class='src'><span class='dot d-ok'></span><span class='sname'>x (MCP)</span><span class='mut sm'>217 heute</span><span class='pill ok'>im Scout</span></div></div>
+<div class="card"><h3>Verlauf (Scout · Analyst · Builder · Briefing)</h3><div class='hrow'><span class='hd'>20.10.</span><span class='hdots'><i class='dot d-ok' title='Scout'></i><i class='dot d-ok' title='Analyst'></i><i class='dot d-wait' title='Builder'></i><i class='dot d-wait' title='Briefing'></i></span>
+<span class='mut sm'>1261 Beschwerden · 3 Probleme</span></div></div></section>
 <footer>Automatisch erstellt · Daten aus öffentlichen Quellen, jede Aussage mit Link<br>Keine Anlageberatung · Schätzungen sind als solche markiert</footer>
 </main>
 <nav class="bnav" aria-label="Menü"><label for="t1"><span>◎</span>Heute</label><label for="t2"><span>💡</span>Ideen</label><label for="t3"><span>📈</span>Probleme</label><label for="t4"><span>💬</span>Belege</label><label for="t5"><span>🛰</span>Quellen</label></nav>

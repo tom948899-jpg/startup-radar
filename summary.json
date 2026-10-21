@@ -1,23 +1,23 @@
 {
- "generated": "2026-10-20T19:29:11+02:00",
- "today": "2026-10-20",
+ "generated": "2026-10-21T05:12:32+02:00",
+ "today": "2026-10-21",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
-  "builder": "ok",
-  "brief": "ok"
+  "builder": "pending",
+  "brief": "pending"
  },
- "raw_records_latest": 1261,
- "raw_file": "2026-10-20.jsonl",
- "pains_in_db": 3,
- "pains_kept_latest": 3,
- "ideas_pitched_total": 3,
- "latest_brief": "2026-10-20",
+ "raw_records_latest": 3673,
+ "raw_file": "2026-10-21.jsonl",
+ "pains_in_db": 7,
+ "pains_kept_latest": 5,
+ "ideas_pitched_total": 6,
+ "latest_brief": "2026-10-21",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
    "total": 21.0,
-   "trend": null
+   "trend": 0.0
   },
   {
    "title": "WordPress/WooCommerce-Updates (z. B. Contact Form 7 PHP 8.3, WooCommerce 11.2) legen Shops und Kundenseiten lahm",
@@ -25,71 +25,81 @@
    "trend": null
   },
   {
-   "title": "Shopify-Händler: Wareneingang/Bestellungen (PO) und Nachbestellen seit Stocky-Aus und neuem PO-Workflow mühsam",
-   "total": 18.0,
+   "title": "Hundesitter/Gassigeher auf Rover/Wag: 20–40 % Provision, 40–50 $ Hintergrundcheck ohne Aufträge, fehlerhafte App",
+   "total": 20.0,
+   "trend": null
+  },
+  {
+   "title": "QuickBooks Online Mobile: Abstürze, ständige Neuanmeldung, Bankabgleich/Belegscan kaputt; Self-Employed eingestellt",
+   "total": 20.0,
+   "trend": null
+  },
+  {
+   "title": "Erwachsene Kinder verwalten Rechnungen, Dokumente, Termine und Medikamente der alten Eltern (oft aus der Ferne) und verpassen Fristen",
+   "total": 19.0,
    "trend": null
   }
  ],
  "sources_ok": 19,
  "sources_total": 22,
  "quality_latest": {
-  "date": "2026-10-20",
-  "raw_records": 1261,
-  "unique": 1250,
-  "useful": 383,
-  "useful_share": 0.306,
-  "near_duplicates": 11
+  "date": "2026-10-21",
+  "raw_records": 3673,
+  "unique": 3673,
+  "useful": 2812,
+  "useful_share": 0.766,
+  "near_duplicates": 0
  },
  "recurring_pains": [
   {
-   "id": "wp-plugin-update-breakage",
-   "nights_seen": 1,
-   "trend": "neu"
-  },
-  {
-   "id": "shopify-po-receiving-reorder",
-   "nights_seen": 1,
-   "trend": "neu"
-  },
-  {
-   "id": "shopify-support-unreachable",
-   "nights_seen": 1,
-   "trend": "neu"
-  },
-  {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 1,
-   "trend": "neu"
-  },
-  {
-   "id": "ecommerce-email-tool-cost",
-   "nights_seen": 1,
-   "trend": "neu"
-  },
-  {
-   "id": "etsy-ai-art-filter",
-   "nights_seen": 1,
-   "trend": "neu"
-  },
-  {
-   "id": "shopify-admin-redesign-ux",
-   "nights_seen": 1,
-   "trend": "neu"
+   "nights_seen": 2,
+   "trend": "steigend"
   },
   {
    "id": "contractor-invoicing-app-billing",
-   "nights_seen": 1,
-   "trend": "neu"
+   "nights_seen": 2,
+   "trend": "steigend"
+  },
+  {
+   "id": "wp-plugin-update-breakage",
+   "nights_seen": 2,
+   "trend": "steigend"
+  },
+  {
+   "id": "pv-inverter-app-unreliable-de",
+   "nights_seen": 2,
+   "trend": "steigend"
+  },
+  {
+   "id": "ecommerce-email-tool-cost",
+   "nights_seen": 2,
+   "trend": "steigend"
+  },
+  {
+   "id": "shopify-support-unreachable",
+   "nights_seen": 2,
+   "trend": "stabil"
+  },
+  {
+   "id": "shopify-po-receiving-reorder",
+   "nights_seen": 2,
+   "trend": "stabil"
+  },
+  {
+   "id": "etsy-ai-art-filter",
+   "nights_seen": 2,
+   "trend": "stabil"
+  },
+  {
+   "id": "shopify-admin-redesign-ux",
+   "nights_seen": 2,
+   "trend": "steigend"
   },
   {
    "id": "shopify-bulk-editor-columns",
-   "nights_seen": 1,
-   "trend": "neu"
-  },
-  {
-   "id": "budget-app-sync-forecast",
-   "nights_seen": 1,
-   "trend": "neu"
+   "nights_seen": 2,
+   "trend": "stabil"
   }
  ]
 }

@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-22T07:10:15+02:00",
+ "generated": "2026-10-22T19:52:17+02:00",
  "today": "2026-10-22",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
-  "brief": "pending"
+  "brief": "ok"
  },
  "raw_records_latest": 2936,
  "raw_file": "2026-10-22.jsonl",
@@ -77,6 +77,11 @@
    "trend": "steigend"
   },
   {
+   "id": "pv-inverter-app-unreliable-de",
+   "nights_seen": 3,
+   "trend": "steigend"
+  },
+  {
    "id": "cleaner-gig-platform-payout-deactivation",
    "nights_seen": 3,
    "trend": "steigend"
@@ -87,19 +92,40 @@
    "trend": "stabil"
   },
   {
+   "id": "ecommerce-email-tool-cost",
+   "nights_seen": 3,
+   "trend": "stabil"
+  },
+  {
    "id": "shopify-po-receiving-reorder",
    "nights_seen": 3,
    "trend": "steigend"
-  },
-  {
-   "id": "shopify-admin-redesign-ux",
-   "nights_seen": 3,
-   "trend": "steigend"
-  },
-  {
-   "id": "qbo-mobile-unreliable",
-   "nights_seen": 2,
-   "trend": "stabil"
   }
- ]
+ ],
+ "pipeline": {
+  "counts": {
+   "Pain": 6,
+   "Idee": 5,
+   "Validierung": 3,
+   "MVP": 0,
+   "Verworfen": 1
+  },
+  "top": [
+   {
+    "title": "Rechnung unterwegs für QuickBooks-Nutzer",
+    "stage": "Validierung",
+    "points": 30
+   },
+   {
+    "title": "Boost-Beleg für Booksy-Friseure",
+    "stage": "Validierung",
+    "points": 28.4
+   },
+   {
+    "title": "Abo-Falle-Ausstieg für Handwerker-Rechnungen (Umzugs-Service)",
+    "stage": "Idee",
+    "points": 28
+   }
+  ]
+ }
 }

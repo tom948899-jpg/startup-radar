@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-21T12:40:19+02:00",
- "today": "2026-10-21",
+ "generated": "2026-10-22T05:11:20+02:00",
+ "today": "2026-10-22",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
-  "builder": "ok",
-  "brief": "ok"
+  "builder": "pending",
+  "brief": "pending"
  },
- "raw_records_latest": 3673,
- "raw_file": "2026-10-21.jsonl",
- "pains_in_db": 7,
- "pains_kept_latest": 5,
- "ideas_pitched_total": 6,
- "latest_brief": "2026-10-21",
+ "raw_records_latest": 2936,
+ "raw_file": "2026-10-22.jsonl",
+ "pains_in_db": 9,
+ "pains_kept_latest": 2,
+ "ideas_pitched_total": 9,
+ "latest_brief": "2026-10-22",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -35,69 +35,69 @@
    "trend": null
   },
   {
-   "title": "Erwachsene Kinder verwalten Rechnungen, Dokumente, Termine und Medikamente der alten Eltern (oft aus der Ferne) und verpassen Fristen",
-   "total": 19.0,
+   "title": "Friseure/Barber auf Booksy: Boost-Gebühren auch für eigene Stammkunden, 29,99 $/Monat, festgehaltene Auszahlungen, kaum Support",
+   "total": 20.0,
    "trend": null
   }
  ],
  "sources_ok": 19,
  "sources_total": 22,
  "quality_latest": {
-  "date": "2026-10-21",
-  "raw_records": 3673,
-  "unique": 3673,
-  "useful": 2812,
-  "useful_share": 0.766,
+  "date": "2026-10-22",
+  "raw_records": 2936,
+  "unique": 2936,
+  "useful": 2495,
+  "useful_share": 0.85,
   "near_duplicates": 0
  },
  "recurring_pains": [
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 2,
-   "trend": "steigend"
-  },
-  {
-   "id": "contractor-invoicing-app-billing",
-   "nights_seen": 2,
-   "trend": "steigend"
-  },
-  {
-   "id": "wp-plugin-update-breakage",
-   "nights_seen": 2,
-   "trend": "steigend"
-  },
-  {
-   "id": "pv-inverter-app-unreliable-de",
-   "nights_seen": 2,
-   "trend": "steigend"
-  },
-  {
-   "id": "ecommerce-email-tool-cost",
-   "nights_seen": 2,
+   "nights_seen": 3,
    "trend": "steigend"
   },
   {
    "id": "shopify-support-unreachable",
-   "nights_seen": 2,
+   "nights_seen": 3,
+   "trend": "steigend"
+  },
+  {
+   "id": "contractor-invoicing-app-billing",
+   "nights_seen": 3,
+   "trend": "stabil"
+  },
+  {
+   "id": "budget-app-sync-forecast",
+   "nights_seen": 3,
+   "trend": "steigend"
+  },
+  {
+   "id": "meta-business-suite-inbox-broken",
+   "nights_seen": 3,
+   "trend": "steigend"
+  },
+  {
+   "id": "cleaner-gig-platform-payout-deactivation",
+   "nights_seen": 3,
+   "trend": "steigend"
+  },
+  {
+   "id": "wp-plugin-update-breakage",
+   "nights_seen": 3,
    "trend": "stabil"
   },
   {
    "id": "shopify-po-receiving-reorder",
-   "nights_seen": 2,
-   "trend": "stabil"
-  },
-  {
-   "id": "etsy-ai-art-filter",
-   "nights_seen": 2,
-   "trend": "stabil"
-  },
-  {
-   "id": "shopify-admin-redesign-ux",
-   "nights_seen": 2,
+   "nights_seen": 3,
    "trend": "steigend"
   },
   {
-   "id": "shopify-bulk-editor-columns",
+   "id": "shopify-admin-redesign-ux",
+   "nights_seen": 3,
+   "trend": "steigend"
+  },
+  {
+   "id": "qbo-mobile-unreliable",
    "nights_seen": 2,
    "trend": "stabil"
   }

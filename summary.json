@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T16:55:00+02:00",
+ "generated": "2026-10-24T21:47:50+02:00",
  "today": "2026-10-24",
  "stages": {
   "scout": "ok",
@@ -117,14 +117,14 @@
     "points": 30
    },
    {
-    "title": "Boost-Beleg für Booksy-Friseure",
-    "stage": "Validierung",
-    "points": 28.4
-   },
-   {
     "title": "Abo-Falle-Ausstieg für Handwerker-Rechnungen (Umzugs-Service)",
     "stage": "Idee",
     "points": 28
+   },
+   {
+    "title": "Boost-Beleg für Booksy-Friseure",
+    "stage": "Validierung",
+    "points": 27.4
    }
   ]
  }

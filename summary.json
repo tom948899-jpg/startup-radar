@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-24T21:47:50+02:00",
- "today": "2026-10-24",
+ "generated": "2026-10-25T05:02:45+01:00",
+ "today": "2026-10-25",
  "stages": {
-  "scout": "ok",
+  "scout": "partial",
   "analyst": "ok",
   "builder": "ok",
-  "brief": "ok"
+  "brief": "pending"
  },
- "raw_records_latest": 351,
- "raw_file": "2026-10-24.jsonl",
+ "raw_records_latest": 984,
+ "raw_file": "2026-10-25.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-10-24",
+ "latest_brief": "2026-10-25",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,62 +43,62 @@
  "sources_ok": 19,
  "sources_total": 22,
  "quality_latest": {
-  "date": "2026-10-24",
-  "raw_records": 333,
-  "unique": 333,
-  "useful": 316,
-  "useful_share": 0.949,
+  "date": "2026-10-25",
+  "raw_records": 984,
+  "unique": 984,
+  "useful": 828,
+  "useful_share": 0.841,
   "near_duplicates": 0
  },
  "recurring_pains": [
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 4,
+   "nights_seen": 5,
    "trend": "stabil"
   },
   {
    "id": "shopify-support-unreachable",
-   "nights_seen": 4,
+   "nights_seen": 5,
    "trend": "stabil"
   },
   {
    "id": "contractor-invoicing-app-billing",
-   "nights_seen": 4,
-   "trend": "stabil"
-  },
-  {
-   "id": "budget-app-sync-forecast",
-   "nights_seen": 4,
+   "nights_seen": 5,
    "trend": "stabil"
   },
   {
    "id": "meta-business-suite-inbox-broken",
-   "nights_seen": 4,
+   "nights_seen": 5,
+   "trend": "stabil"
+  },
+  {
+   "id": "budget-app-sync-forecast",
+   "nights_seen": 5,
    "trend": "stabil"
   },
   {
    "id": "cleaner-gig-platform-payout-deactivation",
-   "nights_seen": 4,
+   "nights_seen": 5,
+   "trend": "stabil"
+  },
+  {
+   "id": "cleaning-recurring-client-billing",
+   "nights_seen": 5,
+   "trend": "stabil"
+  },
+  {
+   "id": "smb-online-payment-processor-choice",
+   "nights_seen": 5,
+   "trend": "stabil"
+  },
+  {
+   "id": "wheniwork-rippling-switch-scheduling",
+   "nights_seen": 5,
    "trend": "stabil"
   },
   {
    "id": "wp-plugin-update-breakage",
-   "nights_seen": 4,
-   "trend": "stabil"
-  },
-  {
-   "id": "shopify-po-receiving-reorder",
-   "nights_seen": 4,
-   "trend": "stabil"
-  },
-  {
-   "id": "etsy-ai-art-filter",
-   "nights_seen": 4,
-   "trend": "stabil"
-  },
-  {
-   "id": "qbo-mobile-unreliable",
-   "nights_seen": 3,
+   "nights_seen": 5,
    "trend": "stabil"
   }
  ],

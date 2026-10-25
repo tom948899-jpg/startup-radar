@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T10:10:57+01:00",
+ "generated": "2026-10-25T12:54:42+01:00",
  "today": "2026-10-25",
  "stages": {
   "scout": "partial",
@@ -105,8 +105,8 @@
  "pipeline": {
   "counts": {
    "Pain": 6,
-   "Idee": 1,
-   "Validierung": 1,
+   "Idee": 0,
+   "Validierung": 2,
    "MVP": 0,
    "Verworfen": 7
   },
@@ -118,8 +118,8 @@
    },
    {
     "title": "Werbe-Notbremse: schriftlicher Anzeigen-Check",
-    "stage": "Idee",
-    "points": 17.6
+    "stage": "Validierung",
+    "points": 19.6
    },
    {
     "title": "Abo-Falle-Ausstieg für Handwerker-Rechnungen (Umzugs-Service)",
@@ -153,7 +153,7 @@
   {
    "id": "2026-10-21-qbo-rechnung-unterwegs-bsky",
    "platform": "Bluesky",
-   "status": "entwurf"
+   "status": "freigegeben"
   }
  ]
 }

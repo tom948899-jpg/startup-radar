@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T07:04:22+01:00",
+ "generated": "2026-10-25T08:11:47+01:00",
  "today": "2026-10-25",
  "stages": {
   "scout": "partial",
@@ -105,27 +105,55 @@
  "pipeline": {
   "counts": {
    "Pain": 6,
-   "Idee": 5,
-   "Validierung": 3,
+   "Idee": 1,
+   "Validierung": 1,
    "MVP": 0,
-   "Verworfen": 1
+   "Verworfen": 7
   },
   "top": [
    {
     "title": "Rechnung unterwegs für QuickBooks-Nutzer",
     "stage": "Validierung",
-    "points": 30
+    "points": 27
+   },
+   {
+    "title": "Werbe-Notbremse: schriftlicher Anzeigen-Check",
+    "stage": "Idee",
+    "points": 17.6
    },
    {
     "title": "Abo-Falle-Ausstieg für Handwerker-Rechnungen (Umzugs-Service)",
-    "stage": "Idee",
+    "stage": "Verworfen",
     "points": 28
-   },
-   {
-    "title": "Boost-Beleg für Booksy-Friseure",
-    "stage": "Validierung",
-    "points": 27.4
    }
   ]
- }
+ },
+ "next_action": [
+  {
+   "idea_id": "2026-10-21-qbo-rechnung-unterwegs",
+   "title": "Reddit-Frage posten (schon freigegeben)",
+   "who": "Tom",
+   "effort": "5 Minuten",
+   "testpost": "2026-10-21-qbo-rechnung-unterwegs-q1",
+   "kill_rule": "< 5 Antworten in 7 Tagen oder < 3 'passiert mir auch' -> Verworfen",
+   "brief": "briefs/aktionen/2026-10-25-naechster-schritt-qbo.md"
+  }
+ ],
+ "platform_drafts": [
+  {
+   "id": "2026-10-21-qbo-rechnung-unterwegs-ih",
+   "platform": "Indie Hackers",
+   "status": "entwurf"
+  },
+  {
+   "id": "2026-10-21-qbo-rechnung-unterwegs-intuit",
+   "platform": "Intuit-Forum",
+   "status": "entwurf"
+  },
+  {
+   "id": "2026-10-21-qbo-rechnung-unterwegs-bsky",
+   "platform": "Bluesky",
+   "status": "entwurf"
+  }
+ ]
 }

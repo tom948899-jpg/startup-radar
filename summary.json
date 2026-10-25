@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T12:54:54+01:00",
+ "generated": "2026-10-25T17:02:33+01:00",
  "today": "2026-10-25",
  "stages": {
   "scout": "partial",
@@ -143,12 +143,12 @@
   {
    "id": "2026-10-21-qbo-rechnung-unterwegs-ih",
    "platform": "Indie Hackers",
-   "status": "entwurf"
+   "status": "freigegeben"
   },
   {
    "id": "2026-10-21-qbo-rechnung-unterwegs-intuit",
    "platform": "Intuit-Forum",
-   "status": "entwurf"
+   "status": "freigegeben"
   },
   {
    "id": "2026-10-21-qbo-rechnung-unterwegs-bsky",

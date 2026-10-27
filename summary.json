@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-26T07:07:27+01:00",
- "today": "2026-10-26",
+ "generated": "2026-10-27T05:08:54+01:00",
+ "today": "2026-10-27",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
   "brief": "pending"
  },
- "raw_records_latest": 443,
- "raw_file": "2026-10-26.jsonl",
+ "raw_records_latest": 791,
+ "raw_file": "2026-10-27.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-10-26",
+ "latest_brief": "2026-10-27",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,63 +43,63 @@
  "sources_ok": 19,
  "sources_total": 22,
  "quality_latest": {
-  "date": "2026-10-26",
-  "raw_records": 443,
-  "unique": 443,
-  "useful": 343,
-  "useful_share": 0.774,
+  "date": "2026-10-27",
+  "raw_records": 790,
+  "unique": 790,
+  "useful": 669,
+  "useful_share": 0.847,
   "near_duplicates": 0
  },
  "recurring_pains": [
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 6,
+   "nights_seen": 7,
    "trend": "stabil"
   },
   {
    "id": "shopify-support-unreachable",
-   "nights_seen": 6,
+   "nights_seen": 7,
    "trend": "stabil"
   },
   {
    "id": "contractor-invoicing-app-billing",
-   "nights_seen": 6,
+   "nights_seen": 7,
    "trend": "stabil"
   },
   {
    "id": "budget-app-sync-forecast",
-   "nights_seen": 6,
+   "nights_seen": 7,
+   "trend": "stabil"
+  },
+  {
+   "id": "meta-business-suite-inbox-broken",
+   "nights_seen": 7,
    "trend": "stabil"
   },
   {
    "id": "cleaning-recurring-client-billing",
-   "nights_seen": 6,
+   "nights_seen": 7,
    "trend": "stabil"
   },
   {
    "id": "cleaner-gig-platform-payout-deactivation",
-   "nights_seen": 6,
-   "trend": "stabil"
-  },
-  {
-   "id": "wheniwork-rippling-switch-scheduling",
-   "nights_seen": 6,
+   "nights_seen": 7,
    "trend": "stabil"
   },
   {
    "id": "smb-online-payment-processor-choice",
-   "nights_seen": 6,
+   "nights_seen": 7,
+   "trend": "stabil"
+  },
+  {
+   "id": "wheniwork-rippling-switch-scheduling",
+   "nights_seen": 7,
    "trend": "stabil"
   },
   {
    "id": "shopify-po-receiving-reorder",
-   "nights_seen": 6,
-   "trend": "stabil"
-  },
-  {
-   "id": "contractor-estimate-followup",
-   "nights_seen": 6,
-   "trend": "stabil"
+   "nights_seen": 7,
+   "trend": "steigend"
   }
  ],
  "pipeline": {

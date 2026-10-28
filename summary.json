@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-28T07:05:10+01:00",
+ "generated": "2026-10-28T22:54:11+01:00",
  "today": "2026-10-28",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
-  "brief": "started"
+  "brief": "ok"
  },
  "raw_records_latest": 313,
  "raw_file": "2026-10-28.jsonl",
@@ -137,6 +137,18 @@
    "testpost": "2026-10-21-qbo-rechnung-unterwegs-q1",
    "kill_rule": "< 5 Antworten in 7 Tagen oder < 3 'passiert mir auch' -> Verworfen",
    "brief": "briefs/aktionen/2026-10-25-naechster-schritt-qbo.md"
+  }
+ ],
+ "testpost_gate": [
+  {
+   "id": "2026-10-22-werbe-notbremse-q1",
+   "status": "verworfen",
+   "ok": false,
+   "blocking": [
+    "leer oder zu kurz (kein echter Text)",
+    "keine Community angegeben"
+   ],
+   "auto_rejected": true
   }
  ],
  "platform_drafts": [

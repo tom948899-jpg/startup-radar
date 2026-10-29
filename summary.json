@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-29T05:05:11+01:00",
+ "generated": "2026-10-29T07:07:52+01:00",
  "today": "2026-10-29",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
-  "brief": "pending"
+  "brief": "started"
  },
  "raw_records_latest": 490,
  "raw_file": "2026-10-29.jsonl",

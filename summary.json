@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-28T22:54:11+01:00",
- "today": "2026-10-28",
+ "generated": "2026-10-29T05:05:11+01:00",
+ "today": "2026-10-29",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
-  "brief": "ok"
+  "brief": "pending"
  },
- "raw_records_latest": 313,
- "raw_file": "2026-10-28.jsonl",
+ "raw_records_latest": 490,
+ "raw_file": "2026-10-29.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-10-28",
+ "latest_brief": "2026-10-29",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,61 +43,61 @@
  "sources_ok": 19,
  "sources_total": 22,
  "quality_latest": {
-  "date": "2026-10-28",
-  "raw_records": 312,
-  "unique": 312,
-  "useful": 286,
-  "useful_share": 0.917,
+  "date": "2026-10-29",
+  "raw_records": 490,
+  "unique": 490,
+  "useful": 473,
+  "useful_share": 0.965,
   "near_duplicates": 0
  },
  "recurring_pains": [
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 8,
-   "trend": "stabil"
-  },
-  {
-   "id": "meta-business-suite-inbox-broken",
-   "nights_seen": 8,
+   "nights_seen": 9,
    "trend": "stabil"
   },
   {
    "id": "contractor-invoicing-app-billing",
-   "nights_seen": 8,
-   "trend": "stabil"
-  },
-  {
-   "id": "cleaning-recurring-client-billing",
-   "nights_seen": 8,
-   "trend": "stabil"
-  },
-  {
-   "id": "cleaner-gig-platform-payout-deactivation",
-   "nights_seen": 8,
+   "nights_seen": 9,
    "trend": "stabil"
   },
   {
    "id": "shopify-po-receiving-reorder",
-   "nights_seen": 8,
+   "nights_seen": 9,
    "trend": "stabil"
   },
   {
-   "id": "wheniwork-rippling-switch-scheduling",
-   "nights_seen": 8,
-   "trend": "stabil"
-  },
-  {
-   "id": "smb-online-payment-processor-choice",
-   "nights_seen": 8,
-   "trend": "stabil"
-  },
-  {
-   "id": "planner-daily-repeat-paywall",
-   "nights_seen": 8,
+   "id": "cleaning-recurring-client-billing",
+   "nights_seen": 9,
    "trend": "stabil"
   },
   {
    "id": "etsy-ai-art-filter",
+   "nights_seen": 9,
+   "trend": "steigend"
+  },
+  {
+   "id": "wheniwork-rippling-switch-scheduling",
+   "nights_seen": 9,
+   "trend": "stabil"
+  },
+  {
+   "id": "cleaner-gig-platform-payout-deactivation",
+   "nights_seen": 9,
+   "trend": "stabil"
+  },
+  {
+   "id": "smb-online-payment-processor-choice",
+   "nights_seen": 9,
+   "trend": "stabil"
+  },
+  {
+   "id": "planner-daily-repeat-paywall",
+   "nights_seen": 9,
+   "trend": "stabil"
+  },
+  {
+   "id": "shopify-support-unreachable",
    "nights_seen": 8,
    "trend": "stabil"
   }
@@ -124,7 +124,7 @@
    {
     "title": "Abo-Falle-Ausstieg für Handwerker-Rechnungen (Umzugs-Service)",
     "stage": "Verworfen",
-    "points": 28
+    "points": 29
    }
   ]
  },

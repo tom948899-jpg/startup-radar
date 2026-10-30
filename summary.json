@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-29T07:07:52+01:00",
- "today": "2026-10-29",
+ "generated": "2026-10-30T05:11:12+01:00",
+ "today": "2026-10-30",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
-  "brief": "started"
+  "brief": "pending"
  },
- "raw_records_latest": 490,
- "raw_file": "2026-10-29.jsonl",
+ "raw_records_latest": 390,
+ "raw_file": "2026-10-30.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-10-29",
+ "latest_brief": "2026-10-30",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,62 +43,62 @@
  "sources_ok": 19,
  "sources_total": 22,
  "quality_latest": {
-  "date": "2026-10-29",
-  "raw_records": 490,
-  "unique": 490,
-  "useful": 473,
-  "useful_share": 0.965,
+  "date": "2026-10-30",
+  "raw_records": 390,
+  "unique": 390,
+  "useful": 302,
+  "useful_share": 0.774,
   "near_duplicates": 0
  },
  "recurring_pains": [
   {
+   "id": "shop-app-order-tracking-broken",
+   "nights_seen": 10,
+   "trend": "stabil"
+  },
+  {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 9,
+   "nights_seen": 10,
+   "trend": "stabil"
+  },
+  {
+   "id": "etsy-seller-app-buggy",
+   "nights_seen": 10,
    "trend": "stabil"
   },
   {
    "id": "contractor-invoicing-app-billing",
-   "nights_seen": 9,
+   "nights_seen": 10,
    "trend": "stabil"
   },
   {
    "id": "shopify-po-receiving-reorder",
-   "nights_seen": 9,
+   "nights_seen": 10,
    "trend": "stabil"
   },
   {
    "id": "cleaning-recurring-client-billing",
-   "nights_seen": 9,
+   "nights_seen": 10,
    "trend": "stabil"
   },
   {
    "id": "etsy-ai-art-filter",
-   "nights_seen": 9,
-   "trend": "steigend"
+   "nights_seen": 10,
+   "trend": "stabil"
   },
   {
    "id": "wheniwork-rippling-switch-scheduling",
-   "nights_seen": 9,
-   "trend": "stabil"
-  },
-  {
-   "id": "cleaner-gig-platform-payout-deactivation",
-   "nights_seen": 9,
-   "trend": "stabil"
-  },
-  {
-   "id": "smb-online-payment-processor-choice",
-   "nights_seen": 9,
+   "nights_seen": 10,
    "trend": "stabil"
   },
   {
    "id": "planner-daily-repeat-paywall",
-   "nights_seen": 9,
+   "nights_seen": 10,
    "trend": "stabil"
   },
   {
-   "id": "shopify-support-unreachable",
-   "nights_seen": 8,
+   "id": "ticket-resale-not-delivered-refund",
+   "nights_seen": 9,
    "trend": "stabil"
   }
  ],
@@ -149,6 +149,15 @@
     "keine Community angegeben"
    ],
    "auto_rejected": true
+  },
+  {
+   "id": "QBO_ZUM_KOPIEREN-q1",
+   "status": "entwurf",
+   "ok": false,
+   "blocking": [
+    "Regel-Verstoß: enthält einen Link -> in den meisten Foren verboten"
+   ],
+   "auto_rejected": false
   }
  ],
  "platform_drafts": [

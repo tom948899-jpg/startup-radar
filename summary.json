@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-30T07:02:29+01:00",
- "today": "2026-10-30",
+ "generated": "2026-10-31T05:09:55+01:00",
+ "today": "2026-10-31",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
   "brief": "pending"
  },
- "raw_records_latest": 390,
- "raw_file": "2026-10-30.jsonl",
+ "raw_records_latest": 308,
+ "raw_file": "2026-10-31.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-10-30",
+ "latest_brief": "2026-10-31",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,62 +43,62 @@
  "sources_ok": 19,
  "sources_total": 22,
  "quality_latest": {
-  "date": "2026-10-30",
-  "raw_records": 390,
-  "unique": 390,
-  "useful": 302,
-  "useful_share": 0.774,
+  "date": "2026-10-31",
+  "raw_records": 308,
+  "unique": 308,
+  "useful": 297,
+  "useful_share": 0.964,
   "near_duplicates": 0
  },
  "recurring_pains": [
   {
    "id": "shop-app-order-tracking-broken",
-   "nights_seen": 10,
+   "nights_seen": 11,
    "trend": "stabil"
   },
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 10,
+   "nights_seen": 11,
    "trend": "stabil"
   },
   {
    "id": "etsy-seller-app-buggy",
-   "nights_seen": 10,
+   "nights_seen": 11,
+   "trend": "stabil"
+  },
+  {
+   "id": "meta-business-suite-inbox-broken",
+   "nights_seen": 11,
+   "trend": "steigend"
+  },
+  {
+   "id": "shopify-po-receiving-reorder",
+   "nights_seen": 11,
    "trend": "stabil"
   },
   {
    "id": "contractor-invoicing-app-billing",
-   "nights_seen": 10,
-   "trend": "stabil"
-  },
-  {
-   "id": "shopify-po-receiving-reorder",
-   "nights_seen": 10,
+   "nights_seen": 11,
    "trend": "stabil"
   },
   {
    "id": "cleaning-recurring-client-billing",
-   "nights_seen": 10,
+   "nights_seen": 11,
    "trend": "stabil"
   },
   {
    "id": "etsy-ai-art-filter",
-   "nights_seen": 10,
-   "trend": "stabil"
-  },
-  {
-   "id": "wheniwork-rippling-switch-scheduling",
-   "nights_seen": 10,
+   "nights_seen": 11,
    "trend": "stabil"
   },
   {
    "id": "planner-daily-repeat-paywall",
-   "nights_seen": 10,
-   "trend": "stabil"
+   "nights_seen": 11,
+   "trend": "steigend"
   },
   {
-   "id": "ticket-resale-not-delivered-refund",
-   "nights_seen": 9,
+   "id": "wheniwork-rippling-switch-scheduling",
+   "nights_seen": 11,
    "trend": "stabil"
   }
  ],

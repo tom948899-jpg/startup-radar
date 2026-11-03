@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-02T07:03:07+01:00",
- "today": "2026-11-02",
+ "generated": "2026-11-03T05:04:54+01:00",
+ "today": "2026-11-03",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
   "brief": "pending"
  },
- "raw_records_latest": 268,
- "raw_file": "2026-11-02.jsonl",
+ "raw_records_latest": 469,
+ "raw_file": "2026-11-03.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-02",
+ "latest_brief": "2026-11-03",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,63 +43,63 @@
  "sources_ok": 19,
  "sources_total": 22,
  "quality_latest": {
-  "date": "2026-11-02",
-  "raw_records": 268,
-  "unique": 268,
-  "useful": 245,
-  "useful_share": 0.914,
+  "date": "2026-11-03",
+  "raw_records": 469,
+  "unique": 469,
+  "useful": 413,
+  "useful_share": 0.881,
   "near_duplicates": 0
  },
  "recurring_pains": [
   {
    "id": "shop-app-order-tracking-broken",
-   "nights_seen": 13,
-   "trend": "stabil"
+   "nights_seen": 14,
+   "trend": "steigend"
   },
   {
    "id": "etsy-seller-app-buggy",
-   "nights_seen": 13,
+   "nights_seen": 14,
    "trend": "stabil"
   },
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 13,
+   "nights_seen": 14,
+   "trend": "stabil"
+  },
+  {
+   "id": "planner-daily-repeat-paywall",
+   "nights_seen": 14,
    "trend": "stabil"
   },
   {
    "id": "contractor-invoicing-app-billing",
-   "nights_seen": 13,
+   "nights_seen": 14,
    "trend": "stabil"
   },
   {
-   "id": "google-calendar-tasks-unhide-bug",
-   "nights_seen": 13,
-   "trend": "steigend"
-  },
-  {
-   "id": "planner-daily-repeat-paywall",
-   "nights_seen": 13,
-   "trend": "steigend"
-  },
-  {
    "id": "etsy-ai-art-filter",
-   "nights_seen": 13,
+   "nights_seen": 14,
+   "trend": "stabil"
+  },
+  {
+   "id": "meta-business-suite-inbox-broken",
+   "nights_seen": 14,
    "trend": "stabil"
   },
   {
    "id": "wheniwork-rippling-switch-scheduling",
-   "nights_seen": 13,
+   "nights_seen": 14,
    "trend": "stabil"
   },
   {
    "id": "ticket-resale-not-delivered-refund",
-   "nights_seen": 12,
-   "trend": "verschwunden"
+   "nights_seen": 13,
+   "trend": "steigend"
   },
   {
-   "id": "shopify-support-unreachable",
-   "nights_seen": 12,
-   "trend": "verschwunden"
+   "id": "shopify-po-receiving-reorder",
+   "nights_seen": 13,
+   "trend": "steigend"
   }
  ],
  "pipeline": {

@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-03T07:09:05+01:00",
- "today": "2026-11-03",
+ "generated": "2026-11-04T05:05:02+01:00",
+ "today": "2026-11-04",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
   "brief": "pending"
  },
- "raw_records_latest": 469,
- "raw_file": "2026-11-03.jsonl",
+ "raw_records_latest": 358,
+ "raw_file": "2026-11-04.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-03",
+ "latest_brief": "2026-11-04",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,62 +43,62 @@
  "sources_ok": 19,
  "sources_total": 22,
  "quality_latest": {
-  "date": "2026-11-03",
-  "raw_records": 469,
-  "unique": 469,
-  "useful": 413,
-  "useful_share": 0.881,
+  "date": "2026-11-04",
+  "raw_records": 358,
+  "unique": 358,
+  "useful": 282,
+  "useful_share": 0.788,
   "near_duplicates": 0
  },
  "recurring_pains": [
   {
-   "id": "shop-app-order-tracking-broken",
-   "nights_seen": 14,
-   "trend": "steigend"
-  },
-  {
    "id": "etsy-seller-app-buggy",
-   "nights_seen": 14,
+   "nights_seen": 15,
    "trend": "stabil"
   },
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 14,
-   "trend": "stabil"
-  },
-  {
-   "id": "planner-daily-repeat-paywall",
-   "nights_seen": 14,
-   "trend": "stabil"
-  },
-  {
-   "id": "contractor-invoicing-app-billing",
-   "nights_seen": 14,
-   "trend": "stabil"
-  },
-  {
-   "id": "etsy-ai-art-filter",
-   "nights_seen": 14,
+   "nights_seen": 15,
    "trend": "stabil"
   },
   {
    "id": "meta-business-suite-inbox-broken",
-   "nights_seen": 14,
-   "trend": "stabil"
-  },
-  {
-   "id": "wheniwork-rippling-switch-scheduling",
-   "nights_seen": 14,
-   "trend": "stabil"
-  },
-  {
-   "id": "ticket-resale-not-delivered-refund",
-   "nights_seen": 13,
+   "nights_seen": 15,
    "trend": "steigend"
   },
   {
-   "id": "shopify-po-receiving-reorder",
-   "nights_seen": 13,
+   "id": "planner-daily-repeat-paywall",
+   "nights_seen": 15,
+   "trend": "stabil"
+  },
+  {
+   "id": "contractor-invoicing-app-billing",
+   "nights_seen": 15,
+   "trend": "stabil"
+  },
+  {
+   "id": "etsy-ai-art-filter",
+   "nights_seen": 15,
+   "trend": "stabil"
+  },
+  {
+   "id": "shop-app-order-tracking-broken",
+   "nights_seen": 14,
+   "trend": "stabil"
+  },
+  {
+   "id": "shopify-support-unreachable",
+   "nights_seen": 14,
+   "trend": "stabil"
+  },
+  {
+   "id": "smb-ads-money-wasted",
+   "nights_seen": 14,
+   "trend": "steigend"
+  },
+  {
+   "id": "therapist-ehr-switch-simplepractice",
+   "nights_seen": 14,
    "trend": "steigend"
   }
  ],
@@ -114,12 +114,12 @@
    {
     "title": "Rechnung unterwegs für QuickBooks-Nutzer",
     "stage": "Validierung",
-    "points": 27
+    "points": 28
    },
    {
     "title": "Werbe-Notbremse: schriftlicher Anzeigen-Check",
     "stage": "Validierung",
-    "points": 19.6
+    "points": 19.8
    },
    {
     "title": "Abo-Falle-Ausstieg für Handwerker-Rechnungen (Umzugs-Service)",

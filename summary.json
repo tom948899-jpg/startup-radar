@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-06T07:04:45+01:00",
- "today": "2026-11-06",
+ "generated": "2026-11-07T05:04:53+01:00",
+ "today": "2026-11-07",
  "stages": {
-  "scout": "partial",
+  "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
-  "brief": "started"
+  "brief": "pending"
  },
- "raw_records_latest": 469,
- "raw_file": "2026-11-06.jsonl",
+ "raw_records_latest": 283,
+ "raw_file": "2026-11-07.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-06",
+ "latest_brief": "2026-11-07",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,63 +43,63 @@
  "sources_ok": 19,
  "sources_total": 22,
  "quality_latest": {
-  "date": "2026-11-06",
-  "raw_records": 393,
-  "unique": 393,
-  "useful": 329,
-  "useful_share": 0.837,
+  "date": "2026-11-07",
+  "raw_records": 280,
+  "unique": 280,
+  "useful": 256,
+  "useful_share": 0.914,
   "near_duplicates": 0
  },
  "recurring_pains": [
   {
    "id": "shop-app-order-tracking-broken",
-   "nights_seen": 17,
+   "nights_seen": 18,
    "trend": "stabil"
   },
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 17,
+   "nights_seen": 18,
    "trend": "stabil"
   },
   {
    "id": "etsy-seller-app-buggy",
-   "nights_seen": 17,
-   "trend": "stabil"
-  },
-  {
-   "id": "google-calendar-tasks-unhide-bug",
-   "nights_seen": 17,
-   "trend": "stabil"
-  },
-  {
-   "id": "planner-daily-repeat-paywall",
-   "nights_seen": 17,
+   "nights_seen": 18,
    "trend": "stabil"
   },
   {
    "id": "contractor-invoicing-app-billing",
-   "nights_seen": 17,
+   "nights_seen": 18,
+   "trend": "stabil"
+  },
+  {
+   "id": "planner-daily-repeat-paywall",
+   "nights_seen": 18,
+   "trend": "stabil"
+  },
+  {
+   "id": "wheniwork-rippling-switch-scheduling",
+   "nights_seen": 18,
    "trend": "stabil"
   },
   {
    "id": "smb-ads-money-wasted",
-   "nights_seen": 16,
+   "nights_seen": 17,
    "trend": "stabil"
   },
   {
    "id": "shopify-support-unreachable",
-   "nights_seen": 16,
-   "trend": "stabil"
-  },
-  {
-   "id": "qbo-mobile-unreliable",
-   "nights_seen": 16,
+   "nights_seen": 17,
    "trend": "stabil"
   },
   {
    "id": "meta-business-suite-inbox-broken",
-   "nights_seen": 16,
-   "trend": "verschwunden"
+   "nights_seen": 17,
+   "trend": "steigend"
+  },
+  {
+   "id": "qbo-mobile-unreliable",
+   "nights_seen": 17,
+   "trend": "stabil"
   }
  ],
  "pipeline": {

@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-08T10:05:01+01:00",
- "today": "2026-11-08",
+ "generated": "2026-11-09T05:06:45+01:00",
+ "today": "2026-11-09",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
-  "brief": "ok"
+  "brief": "pending"
  },
- "raw_records_latest": 521,
- "raw_file": "2026-11-08.jsonl",
+ "raw_records_latest": 363,
+ "raw_file": "2026-11-09.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-08",
+ "latest_brief": "2026-11-09",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,62 +43,62 @@
  "sources_ok": 19,
  "sources_total": 22,
  "quality_latest": {
-  "date": "2026-11-08",
-  "raw_records": 520,
-  "unique": 520,
-  "useful": 472,
-  "useful_share": 0.908,
+  "date": "2026-11-09",
+  "raw_records": 363,
+  "unique": 363,
+  "useful": 339,
+  "useful_share": 0.934,
   "near_duplicates": 0
  },
  "recurring_pains": [
   {
    "id": "shop-app-order-tracking-broken",
-   "nights_seen": 19,
+   "nights_seen": 20,
    "trend": "stabil"
   },
   {
    "id": "etsy-seller-app-buggy",
-   "nights_seen": 19,
-   "trend": "steigend"
+   "nights_seen": 20,
+   "trend": "stabil"
   },
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 19,
-   "trend": "steigend"
+   "nights_seen": 20,
+   "trend": "stabil"
   },
   {
    "id": "contractor-invoicing-app-billing",
-   "nights_seen": 19,
+   "nights_seen": 20,
    "trend": "stabil"
   },
   {
    "id": "planner-daily-repeat-paywall",
-   "nights_seen": 19,
+   "nights_seen": 20,
    "trend": "stabil"
   },
   {
    "id": "wheniwork-rippling-switch-scheduling",
-   "nights_seen": 19,
-   "trend": "stabil"
+   "nights_seen": 20,
+   "trend": "steigend"
   },
   {
    "id": "smb-ads-money-wasted",
-   "nights_seen": 18,
-   "trend": "stabil"
+   "nights_seen": 19,
+   "trend": "steigend"
   },
   {
    "id": "meta-business-suite-inbox-broken",
-   "nights_seen": 18,
-   "trend": "verschwunden"
+   "nights_seen": 19,
+   "trend": "steigend"
   },
   {
-   "id": "shopify-support-unreachable",
-   "nights_seen": 18,
-   "trend": "stabil"
+   "id": "qbo-mobile-unreliable",
+   "nights_seen": 19,
+   "trend": "steigend"
   },
   {
    "id": "google-calendar-tasks-unhide-bug",
-   "nights_seen": 18,
+   "nights_seen": 19,
    "trend": "stabil"
   }
  ],
@@ -119,7 +119,7 @@
    {
     "title": "Werbe-Notbremse: schriftlicher Anzeigen-Check",
     "stage": "Validierung",
-    "points": 19.8
+    "points": 21.0
    },
    {
     "title": "Abo-Falle-Ausstieg für Handwerker-Rechnungen (Umzugs-Service)",

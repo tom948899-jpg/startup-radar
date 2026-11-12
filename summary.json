@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-11T07:04:36+01:00",
- "today": "2026-11-11",
+ "generated": "2026-11-12T05:06:25+01:00",
+ "today": "2026-11-12",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
   "brief": "pending"
  },
- "raw_records_latest": 494,
- "raw_file": "2026-11-11.jsonl",
+ "raw_records_latest": 346,
+ "raw_file": "2026-11-12.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-11",
+ "latest_brief": "2026-11-12",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,62 +43,62 @@
  "sources_ok": 19,
  "sources_total": 22,
  "quality_latest": {
-  "date": "2026-11-11",
-  "raw_records": 494,
-  "unique": 494,
-  "useful": 412,
-  "useful_share": 0.834,
+  "date": "2026-11-12",
+  "raw_records": 345,
+  "unique": 345,
+  "useful": 336,
+  "useful_share": 0.974,
   "near_duplicates": 0
  },
  "recurring_pains": [
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 22,
-   "trend": "stabil"
-  },
-  {
-   "id": "etsy-seller-app-buggy",
-   "nights_seen": 22,
+   "nights_seen": 20,
    "trend": "stabil"
   },
   {
    "id": "meta-business-suite-inbox-broken",
-   "nights_seen": 22,
+   "nights_seen": 12,
    "trend": "stabil"
   },
   {
-   "id": "planner-daily-repeat-paywall",
-   "nights_seen": 22,
-   "trend": "stabil"
-  },
-  {
-   "id": "contractor-invoicing-app-billing",
-   "nights_seen": 21,
+   "id": "ticket-resale-not-delivered-refund",
+   "nights_seen": 11,
    "trend": "verschwunden"
   },
   {
-   "id": "smb-online-payment-processor-choice",
-   "nights_seen": 21,
-   "trend": "steigend"
+   "id": "shop-app-order-tracking-broken",
+   "nights_seen": 11,
+   "trend": "verschwunden"
   },
   {
-   "id": "google-calendar-tasks-unhide-bug",
-   "nights_seen": 21,
+   "id": "etsy-seller-app-buggy",
+   "nights_seen": 11,
    "trend": "stabil"
   },
   {
-   "id": "qbo-mobile-unreliable",
-   "nights_seen": 21,
+   "id": "truck-parking-info-unreliable",
+   "nights_seen": 10,
+   "trend": "verschwunden"
+  },
+  {
+   "id": "event-parking-resale-misdirected",
+   "nights_seen": 9,
+   "trend": "verschwunden"
+  },
+  {
+   "id": "ticket-transfer-code-hassle",
+   "nights_seen": 9,
+   "trend": "verschwunden"
+  },
+  {
+   "id": "gallery-photos-disappear-android",
+   "nights_seen": 9,
    "trend": "stabil"
   },
   {
-   "id": "etsy-ai-art-filter",
-   "nights_seen": 21,
-   "trend": "stabil"
-  },
-  {
-   "id": "wheniwork-rippling-switch-scheduling",
-   "nights_seen": 21,
+   "id": "planerio-app-login-broken-de",
+   "nights_seen": 9,
    "trend": "stabil"
   }
  ],
@@ -114,7 +114,7 @@
    {
     "title": "Rechnung unterwegs für QuickBooks-Nutzer",
     "stage": "Validierung",
-    "points": 28
+    "points": 29
    },
    {
     "title": "Werbe-Notbremse: schriftlicher Anzeigen-Check",

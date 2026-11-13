@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-12T07:04:01+01:00",
- "today": "2026-11-12",
+ "generated": "2026-11-13T05:04:12+01:00",
+ "today": "2026-11-13",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
   "brief": "pending"
  },
- "raw_records_latest": 346,
- "raw_file": "2026-11-12.jsonl",
+ "raw_records_latest": 250,
+ "raw_file": "2026-11-13.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-12",
+ "latest_brief": "2026-11-13",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -41,29 +41,28 @@
   }
  ],
  "sources_ok": 19,
- "sources_total": 22,
+ "sources_total": 23,
  "quality_latest": {
-  "date": "2026-11-12",
-  "raw_records": 345,
-  "unique": 345,
-  "useful": 336,
-  "useful_share": 0.974,
-  "near_duplicates": 0
+  "date": "2026-11-13",
+  "raw_records": 250,
+  "unique": 250,
+  "useful": 180,
+  "useful_share": 0.72,
+  "near_duplicates": 0,
+  "digest_shown": 17,
+  "evidence_used": 14,
+  "digest_shown_share": 0.094,
+  "evidence_used_share": 0.078
  },
  "recurring_pains": [
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 20,
-   "trend": "stabil"
+   "nights_seen": 21,
+   "trend": "steigend"
   },
   {
    "id": "meta-business-suite-inbox-broken",
    "nights_seen": 12,
-   "trend": "stabil"
-  },
-  {
-   "id": "ticket-resale-not-delivered-refund",
-   "nights_seen": 11,
    "trend": "verschwunden"
   },
   {
@@ -82,22 +81,27 @@
    "trend": "verschwunden"
   },
   {
+   "id": "ticket-resale-not-delivered-refund",
+   "nights_seen": 9,
+   "trend": "verschwunden"
+  },
+  {
+   "id": "ticket-obstructed-view-misdescribed",
+   "nights_seen": 9,
+   "trend": "verschwunden"
+  },
+  {
+   "id": "budget-app-sync-forecast",
+   "nights_seen": 9,
+   "trend": "stabil"
+  },
+  {
    "id": "event-parking-resale-misdirected",
    "nights_seen": 9,
    "trend": "verschwunden"
   },
   {
-   "id": "ticket-transfer-code-hassle",
-   "nights_seen": 9,
-   "trend": "verschwunden"
-  },
-  {
-   "id": "gallery-photos-disappear-android",
-   "nights_seen": 9,
-   "trend": "stabil"
-  },
-  {
-   "id": "planerio-app-login-broken-de",
+   "id": "rent-portal-payment-fees",
    "nights_seen": 9,
    "trend": "stabil"
   }
@@ -131,11 +135,11 @@
  "next_action": [
   {
    "idea_id": "2026-10-21-qbo-rechnung-unterwegs",
-   "title": "Reddit-Frage posten (schon freigegeben)",
-   "who": "Tom",
-   "effort": "5 Minuten",
+   "title": "Antworten in r/quickbooksonline bis 19.11. abwarten; parallel nur Orte mit Tom-Login (Intuit-Community, Indie Hackers, Bluesky), wenn Tom will",
+   "who": "Tom (Login) + Team (Regeln prüfen)",
+   "effort": "15 Minuten",
    "testpost": "2026-10-21-qbo-rechnung-unterwegs-q1",
-   "kill_rule": "< 5 Antworten in 7 Tagen oder < 3 'passiert mir auch' -> Verworfen",
+   "kill_rule": "Gilt nur für einen Post, der 7 Tage sichtbar war: < 5 Antworten oder < 3 'passiert mir auch' -> Verworfen. Von Mods entfernt = kein Ergebnis, kein Kill.",
    "brief": "briefs/aktionen/2026-10-25-naechster-schritt-qbo.md"
   }
  ],
@@ -149,18 +153,14 @@
     "keine Community angegeben"
    ],
    "auto_rejected": true
-  },
-  {
-   "id": "QBO_ZUM_KOPIEREN-q1",
-   "status": "entwurf",
-   "ok": false,
-   "blocking": [
-    "Regel-Verstoß: enthält einen Link -> in den meisten Foren verboten"
-   ],
-   "auto_rejected": false
   }
  ],
  "platform_drafts": [
+  {
+   "id": "2026-10-21-qbo-rechnung-unterwegs-q1-quickbooksonline",
+   "platform": null,
+   "status": "gepostet"
+  },
   {
    "id": "2026-10-21-qbo-rechnung-unterwegs-ih",
    "platform": "Indie Hackers",

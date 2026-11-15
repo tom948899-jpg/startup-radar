@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T10:19:50+01:00",
+ "generated": "2026-11-15T10:25:54+01:00",
  "today": "2026-11-15",
  "stages": {
   "scout": "ok",
@@ -110,9 +110,9 @@
   "counts": {
    "Pain": 6,
    "Idee": 0,
-   "Validierung": 2,
+   "Validierung": 1,
    "MVP": 0,
-   "Verworfen": 7
+   "Verworfen": 8
   },
   "top": [
    {
@@ -121,25 +121,25 @@
     "points": 30
    },
    {
-    "title": "Werbe-Notbremse: schriftlicher Anzeigen-Check",
-    "stage": "Validierung",
-    "points": 21.0
-   },
-   {
     "title": "Abo-Falle-Ausstieg für Handwerker-Rechnungen (Umzugs-Service)",
     "stage": "Verworfen",
     "points": 29
+   },
+   {
+    "title": "Boost-Beleg für Booksy-Friseure",
+    "stage": "Verworfen",
+    "points": 26.6
    }
   ]
  },
  "next_action": [
   {
    "idea_id": "2026-10-21-qbo-rechnung-unterwegs",
-   "title": "Antworten in r/quickbooksonline bis 19.11. abwarten; parallel nur Orte mit Tom-Login (Intuit-Community, Indie Hackers, Bluesky), wenn Tom will",
-   "who": "Tom (Login) + Team (Regeln prüfen)",
+   "title": "Am 19.11. den Post in r/quickbooksonline auswerten (≥5 Antworten → MVP, sonst verworfen); parallel nur Orte mit Tom-Login (Intuit-Community, Indie Hackers, Bluesky), wenn Tom will",
+   "who": "Analyst + Builder am 19.11.; Tom bei MVP",
    "effort": "15 Minuten",
    "testpost": "2026-10-21-qbo-rechnung-unterwegs-q1",
-   "kill_rule": "Gilt nur für einen Post, der 7 Tage sichtbar war: < 5 Antworten oder < 3 'passiert mir auch' -> Verworfen. Von Mods entfernt = kein Ergebnis, kein Kill.",
+   "kill_rule": "Tom 15.11. (Wochenrückblick KW46, Entscheidung 2): Am 19.11. den Post https://www.reddit.com/r/quickbooksonline/comments/1xujlly/ auswerten. ≥5 Antworten → MVP, sonst verworfen. Der entfernte r/QuickBooks-Post zählt nicht.",
    "brief": "briefs/aktionen/2026-10-25-naechster-schritt-qbo.md"
   }
  ],

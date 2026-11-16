@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-15T10:25:54+01:00",
- "today": "2026-11-15",
+ "generated": "2026-11-16T05:20:59+01:00",
+ "today": "2026-11-16",
  "stages": {
-  "scout": "ok",
+  "scout": "partial",
   "analyst": "ok",
   "builder": "ok",
-  "brief": "ok"
+  "brief": "pending"
  },
- "raw_records_latest": 236,
- "raw_file": "2026-11-15.jsonl",
+ "raw_records_latest": 922,
+ "raw_file": "2026-11-16.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-15",
+ "latest_brief": "2026-11-16",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,72 +43,72 @@
  "sources_ok": 19,
  "sources_total": 23,
  "quality_latest": {
-  "date": "2026-11-15",
-  "raw_records": 231,
-  "unique": 231,
-  "useful": 200,
-  "useful_share": 0.866,
+  "date": "2026-11-16",
+  "raw_records": 901,
+  "unique": 901,
+  "useful": 862,
+  "useful_share": 0.957,
   "near_duplicates": 0,
-  "digest_shown": 13,
-  "evidence_used": 6,
-  "digest_shown_share": 0.065,
-  "evidence_used_share": 0.03
+  "digest_shown": 31,
+  "evidence_used": 17,
+  "digest_shown_share": 0.036,
+  "evidence_used_share": 0.02
  },
  "recurring_pains": [
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 22,
-   "trend": "steigend"
+   "nights_seen": 23,
+   "trend": "stabil"
   },
   {
    "id": "meta-business-suite-inbox-broken",
-   "nights_seen": 12,
-   "trend": "verschwunden"
-  },
-  {
-   "id": "etsy-seller-app-buggy",
-   "nights_seen": 12,
-   "trend": "steigend"
-  },
-  {
-   "id": "gallery-photos-disappear-android",
-   "nights_seen": 11,
+   "nights_seen": 13,
    "trend": "steigend"
   },
   {
    "id": "shop-app-order-tracking-broken",
-   "nights_seen": 11,
+   "nights_seen": 12,
    "trend": "verschwunden"
   },
   {
    "id": "monarch-privacy-support",
-   "nights_seen": 11,
-   "trend": "stabil"
-  },
-  {
-   "id": "google-calendar-tasks-unhide-bug",
-   "nights_seen": 10,
+   "nights_seen": 12,
    "trend": "stabil"
   },
   {
    "id": "truck-parking-info-unreliable",
+   "nights_seen": 11,
+   "trend": "steigend"
+  },
+  {
+   "id": "ticket-transfer-code-hassle",
+   "nights_seen": 11,
+   "trend": "steigend"
+  },
+  {
+   "id": "ticket-resale-not-delivered-refund",
    "nights_seen": 10,
-   "trend": "stabil"
+   "trend": "steigend"
+  },
+  {
+   "id": "ticket-obstructed-view-misdescribed",
+   "nights_seen": 10,
+   "trend": "steigend"
+  },
+  {
+   "id": "event-parking-resale-misdirected",
+   "nights_seen": 10,
+   "trend": "steigend"
   },
   {
    "id": "planerio-app-login-broken-de",
    "nights_seen": 10,
    "trend": "stabil"
-  },
-  {
-   "id": "ticket-resale-not-delivered-refund",
-   "nights_seen": 9,
-   "trend": "verschwunden"
   }
  ],
  "pipeline": {
   "counts": {
-   "Pain": 6,
+   "Pain": 8,
    "Idee": 0,
    "Validierung": 1,
    "MVP": 0,

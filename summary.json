@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-16T06:51:46+01:00",
- "today": "2026-11-16",
+ "generated": "2026-11-17T05:22:52+01:00",
+ "today": "2026-11-17",
  "stages": {
-  "scout": "partial",
+  "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
   "brief": "pending"
  },
- "raw_records_latest": 922,
- "raw_file": "2026-11-16.jsonl",
+ "raw_records_latest": 361,
+ "raw_file": "2026-11-17.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-16",
+ "latest_brief": "2026-11-17",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,32 +43,27 @@
  "sources_ok": 19,
  "sources_total": 23,
  "quality_latest": {
-  "date": "2026-11-16",
-  "raw_records": 901,
-  "unique": 901,
-  "useful": 862,
-  "useful_share": 0.957,
+  "date": "2026-11-17",
+  "raw_records": 361,
+  "unique": 361,
+  "useful": 302,
+  "useful_share": 0.837,
   "near_duplicates": 0,
-  "digest_shown": 31,
-  "evidence_used": 17,
-  "digest_shown_share": 0.036,
-  "evidence_used_share": 0.02
+  "digest_shown": 62,
+  "evidence_used": 13,
+  "digest_shown_share": 0.205,
+  "evidence_used_share": 0.043
  },
  "recurring_pains": [
   {
    "id": "subscription-trial-forgot-cancel",
    "nights_seen": 23,
-   "trend": "stabil"
-  },
-  {
-   "id": "meta-business-suite-inbox-broken",
-   "nights_seen": 13,
-   "trend": "steigend"
-  },
-  {
-   "id": "shop-app-order-tracking-broken",
-   "nights_seen": 12,
    "trend": "verschwunden"
+  },
+  {
+   "id": "etsy-seller-app-buggy",
+   "nights_seen": 13,
+   "trend": "stabil"
   },
   {
    "id": "monarch-privacy-support",
@@ -76,34 +71,39 @@
    "trend": "stabil"
   },
   {
-   "id": "truck-parking-info-unreliable",
-   "nights_seen": 11,
-   "trend": "steigend"
+   "id": "shop-app-order-tracking-broken",
+   "nights_seen": 12,
+   "trend": "verschwunden"
   },
   {
-   "id": "ticket-transfer-code-hassle",
+   "id": "truck-parking-info-unreliable",
    "nights_seen": 11,
-   "trend": "steigend"
+   "trend": "verschwunden"
+  },
+  {
+   "id": "meta-business-suite-inbox-broken",
+   "nights_seen": 11,
+   "trend": "verschwunden"
   },
   {
    "id": "ticket-resale-not-delivered-refund",
    "nights_seen": 10,
-   "trend": "steigend"
-  },
-  {
-   "id": "ticket-obstructed-view-misdescribed",
-   "nights_seen": 10,
-   "trend": "steigend"
+   "trend": "verschwunden"
   },
   {
    "id": "event-parking-resale-misdirected",
    "nights_seen": 10,
-   "trend": "steigend"
+   "trend": "verschwunden"
   },
   {
-   "id": "planerio-app-login-broken-de",
+   "id": "ticket-obstructed-view-misdescribed",
    "nights_seen": 10,
-   "trend": "stabil"
+   "trend": "verschwunden"
+  },
+  {
+   "id": "google-calendar-tasks-unhide-bug",
+   "nights_seen": 10,
+   "trend": "steigend"
   }
  ],
  "pipeline": {
@@ -123,12 +123,12 @@
    {
     "title": "Abo-Falle-Ausstieg für Handwerker-Rechnungen (Umzugs-Service)",
     "stage": "Verworfen",
-    "points": 29
+    "points": 30
    },
    {
     "title": "Boost-Beleg für Booksy-Friseure",
     "stage": "Verworfen",
-    "points": 26.6
+    "points": 27.8
    }
   ]
  },

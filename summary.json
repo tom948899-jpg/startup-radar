@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-18T07:00:44+01:00",
- "today": "2026-11-18",
+ "generated": "2026-11-19T05:23:55+01:00",
+ "today": "2026-11-19",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
   "brief": "pending"
  },
- "raw_records_latest": 1098,
- "raw_file": "2026-11-18.jsonl",
+ "raw_records_latest": 325,
+ "raw_file": "2026-11-19.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-18",
+ "latest_brief": "2026-11-19",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,62 +43,62 @@
  "sources_ok": 19,
  "sources_total": 23,
  "quality_latest": {
-  "date": "2026-11-18",
-  "raw_records": 1098,
-  "unique": 1098,
-  "useful": 998,
-  "useful_share": 0.909,
+  "date": "2026-11-19",
+  "raw_records": 325,
+  "unique": 325,
+  "useful": 299,
+  "useful_share": 0.92,
   "near_duplicates": 0,
-  "digest_shown": 76,
-  "evidence_used": 20,
-  "digest_shown_share": 0.076,
-  "evidence_used_share": 0.02
+  "digest_shown": 46,
+  "evidence_used": 12,
+  "digest_shown_share": 0.154,
+  "evidence_used_share": 0.04
  },
  "recurring_pains": [
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 24,
-   "trend": "steigend"
+   "nights_seen": 25,
+   "trend": "stabil"
+  },
+  {
+   "id": "shop-app-order-tracking-broken",
+   "nights_seen": 15,
+   "trend": "verschwunden"
   },
   {
    "id": "meta-business-suite-inbox-broken",
    "nights_seen": 15,
-   "trend": "steigend"
+   "trend": "verschwunden"
   },
   {
    "id": "etsy-seller-app-buggy",
-   "nights_seen": 14,
-   "trend": "steigend"
-  },
-  {
-   "id": "shop-app-order-tracking-broken",
-   "nights_seen": 13,
-   "trend": "steigend"
-  },
-  {
-   "id": "monarch-privacy-support",
-   "nights_seen": 13,
-   "trend": "steigend"
+   "nights_seen": 15,
+   "trend": "stabil"
   },
   {
    "id": "truck-parking-info-unreliable",
    "nights_seen": 12,
-   "trend": "steigend"
+   "trend": "verschwunden"
+  },
+  {
+   "id": "event-parking-resale-misdirected",
+   "nights_seen": 12,
+   "trend": "verschwunden"
+  },
+  {
+   "id": "ticket-transfer-code-hassle",
+   "nights_seen": 12,
+   "trend": "stabil"
   },
   {
    "id": "ticket-resale-not-delivered-refund",
    "nights_seen": 11,
-   "trend": "stabil"
+   "trend": "verschwunden"
   },
   {
    "id": "ticket-obstructed-view-misdescribed",
    "nights_seen": 11,
-   "trend": "stabil"
-  },
-  {
-   "id": "event-parking-resale-misdirected",
-   "nights_seen": 11,
-   "trend": "stabil"
+   "trend": "verschwunden"
   },
   {
    "id": "smb-ads-money-wasted",
@@ -159,7 +159,7 @@
   {
    "id": "2026-10-21-qbo-rechnung-unterwegs-q1-quickbooksonline",
    "platform": null,
-   "status": "gepostet"
+   "status": "ausgewertet"
   },
   {
    "id": "2026-10-21-qbo-rechnung-unterwegs-ih",

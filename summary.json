@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-19T06:53:11+01:00",
- "today": "2026-11-19",
+ "generated": "2026-11-20T05:17:49+01:00",
+ "today": "2026-11-20",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
   "brief": "pending"
  },
- "raw_records_latest": 325,
- "raw_file": "2026-11-19.jsonl",
+ "raw_records_latest": 748,
+ "raw_file": "2026-11-20.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-19",
+ "latest_brief": "2026-11-20",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,27 +43,22 @@
  "sources_ok": 19,
  "sources_total": 23,
  "quality_latest": {
-  "date": "2026-11-19",
-  "raw_records": 325,
-  "unique": 325,
-  "useful": 299,
-  "useful_share": 0.92,
+  "date": "2026-11-20",
+  "raw_records": 748,
+  "unique": 748,
+  "useful": 719,
+  "useful_share": 0.961,
   "near_duplicates": 0,
-  "digest_shown": 46,
-  "evidence_used": 12,
-  "digest_shown_share": 0.154,
-  "evidence_used_share": 0.04
+  "digest_shown": 75,
+  "evidence_used": 16,
+  "digest_shown_share": 0.104,
+  "evidence_used_share": 0.022
  },
  "recurring_pains": [
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 25,
-   "trend": "stabil"
-  },
-  {
-   "id": "shop-app-order-tracking-broken",
-   "nights_seen": 15,
-   "trend": "verschwunden"
+   "nights_seen": 26,
+   "trend": "steigend"
   },
   {
    "id": "meta-business-suite-inbox-broken",
@@ -73,7 +68,17 @@
   {
    "id": "etsy-seller-app-buggy",
    "nights_seen": 15,
+   "trend": "steigend"
+  },
+  {
+   "id": "gallery-photos-disappear-android",
+   "nights_seen": 15,
    "trend": "stabil"
+  },
+  {
+   "id": "shop-app-order-tracking-broken",
+   "nights_seen": 13,
+   "trend": "steigend"
   },
   {
    "id": "truck-parking-info-unreliable",
@@ -81,12 +86,7 @@
    "trend": "verschwunden"
   },
   {
-   "id": "event-parking-resale-misdirected",
-   "nights_seen": 12,
-   "trend": "verschwunden"
-  },
-  {
-   "id": "ticket-transfer-code-hassle",
+   "id": "smb-ads-money-wasted",
    "nights_seen": 12,
    "trend": "stabil"
   },
@@ -96,34 +96,34 @@
    "trend": "verschwunden"
   },
   {
-   "id": "ticket-obstructed-view-misdescribed",
+   "id": "google-maps-nav-voice-change",
    "nights_seen": 11,
    "trend": "verschwunden"
   },
   {
-   "id": "smb-ads-money-wasted",
+   "id": "ticket-obstructed-view-misdescribed",
    "nights_seen": 11,
-   "trend": "stabil"
+   "trend": "verschwunden"
   }
  ],
  "pipeline": {
   "counts": {
    "Pain": 8,
    "Idee": 0,
-   "Validierung": 1,
+   "Validierung": 0,
    "MVP": 0,
-   "Verworfen": 8
+   "Verworfen": 9
   },
   "top": [
-   {
-    "title": "Rechnung unterwegs für QuickBooks-Nutzer",
-    "stage": "Validierung",
-    "points": 30
-   },
    {
     "title": "Abo-Falle-Ausstieg für Handwerker-Rechnungen (Umzugs-Service)",
     "stage": "Verworfen",
     "points": 30
+   },
+   {
+    "title": "Rechnung unterwegs für QuickBooks-Nutzer",
+    "stage": "Verworfen",
+    "points": 28
    },
    {
     "title": "Boost-Beleg für Booksy-Friseure",
@@ -132,17 +132,7 @@
    }
   ]
  },
- "next_action": [
-  {
-   "idea_id": "2026-10-21-qbo-rechnung-unterwegs",
-   "title": "Am 19.11. den Post in r/quickbooksonline auswerten (≥5 Antworten → MVP, sonst verworfen); parallel nur Orte mit Tom-Login (Intuit-Community, Indie Hackers, Bluesky), wenn Tom will",
-   "who": "Analyst + Builder am 19.11.; Tom bei MVP",
-   "effort": "15 Minuten",
-   "testpost": "2026-10-21-qbo-rechnung-unterwegs-q1",
-   "kill_rule": "Tom 15.11. (Wochenrückblick KW46, Entscheidung 2): Am 19.11. den Post https://www.reddit.com/r/quickbooksonline/comments/1xujlly/ auswerten. ≥5 Antworten → MVP, sonst verworfen. Der entfernte r/QuickBooks-Post zählt nicht.",
-   "brief": "briefs/aktionen/2026-10-25-naechster-schritt-qbo.md"
-  }
- ],
+ "next_action": [],
  "testpost_gate": [
   {
    "id": "2026-10-22-werbe-notbremse-q1",

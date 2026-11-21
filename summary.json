@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-20T06:51:06+01:00",
- "today": "2026-11-20",
+ "generated": "2026-11-21T05:17:39+01:00",
+ "today": "2026-11-21",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
   "brief": "pending"
  },
- "raw_records_latest": 748,
- "raw_file": "2026-11-20.jsonl",
+ "raw_records_latest": 302,
+ "raw_file": "2026-11-21.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-20",
+ "latest_brief": "2026-11-21",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,45 +43,35 @@
  "sources_ok": 19,
  "sources_total": 23,
  "quality_latest": {
-  "date": "2026-11-20",
-  "raw_records": 748,
-  "unique": 748,
-  "useful": 719,
-  "useful_share": 0.961,
+  "date": "2026-11-21",
+  "raw_records": 299,
+  "unique": 299,
+  "useful": 236,
+  "useful_share": 0.789,
   "near_duplicates": 0,
-  "digest_shown": 75,
-  "evidence_used": 16,
-  "digest_shown_share": 0.104,
-  "evidence_used_share": 0.022
+  "digest_shown": 28,
+  "evidence_used": 6,
+  "digest_shown_share": 0.119,
+  "evidence_used_share": 0.025
  },
  "recurring_pains": [
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 26,
+   "nights_seen": 25,
+   "trend": "verschwunden"
+  },
+  {
+   "id": "gallery-photos-disappear-android",
+   "nights_seen": 17,
    "trend": "steigend"
   },
   {
    "id": "meta-business-suite-inbox-broken",
-   "nights_seen": 15,
+   "nights_seen": 13,
    "trend": "verschwunden"
   },
   {
-   "id": "etsy-seller-app-buggy",
-   "nights_seen": 15,
-   "trend": "steigend"
-  },
-  {
-   "id": "gallery-photos-disappear-android",
-   "nights_seen": 15,
-   "trend": "stabil"
-  },
-  {
    "id": "shop-app-order-tracking-broken",
-   "nights_seen": 13,
-   "trend": "steigend"
-  },
-  {
-   "id": "truck-parking-info-unreliable",
    "nights_seen": 12,
    "trend": "verschwunden"
   },
@@ -96,12 +86,22 @@
    "trend": "verschwunden"
   },
   {
-   "id": "google-maps-nav-voice-change",
+   "id": "ticket-obstructed-view-misdescribed",
    "nights_seen": 11,
    "trend": "verschwunden"
   },
   {
-   "id": "ticket-obstructed-view-misdescribed",
+   "id": "event-parking-resale-misdirected",
+   "nights_seen": 11,
+   "trend": "verschwunden"
+  },
+  {
+   "id": "truck-parking-info-unreliable",
+   "nights_seen": 11,
+   "trend": "verschwunden"
+  },
+  {
+   "id": "etsy-seller-app-buggy",
    "nights_seen": 11,
    "trend": "verschwunden"
   }

@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-21T06:58:00+01:00",
- "today": "2026-11-21",
+ "generated": "2026-11-22T05:19:23+01:00",
+ "today": "2026-11-22",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
   "brief": "pending"
  },
- "raw_records_latest": 302,
- "raw_file": "2026-11-21.jsonl",
+ "raw_records_latest": 272,
+ "raw_file": "2026-11-22.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-21",
+ "latest_brief": "2026-11-22",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,52 +43,52 @@
  "sources_ok": 19,
  "sources_total": 23,
  "quality_latest": {
-  "date": "2026-11-21",
-  "raw_records": 299,
-  "unique": 299,
-  "useful": 236,
-  "useful_share": 0.789,
+  "date": "2026-11-22",
+  "raw_records": 272,
+  "unique": 272,
+  "useful": 258,
+  "useful_share": 0.949,
   "near_duplicates": 0,
-  "digest_shown": 28,
-  "evidence_used": 6,
-  "digest_shown_share": 0.119,
-  "evidence_used_share": 0.025
+  "digest_shown": 41,
+  "evidence_used": 10,
+  "digest_shown_share": 0.159,
+  "evidence_used_share": 0.039
  },
  "recurring_pains": [
   {
    "id": "subscription-trial-forgot-cancel",
    "nights_seen": 25,
-   "trend": "verschwunden"
-  },
-  {
-   "id": "gallery-photos-disappear-android",
-   "nights_seen": 17,
-   "trend": "steigend"
-  },
-  {
-   "id": "meta-business-suite-inbox-broken",
-   "nights_seen": 13,
-   "trend": "verschwunden"
-  },
-  {
-   "id": "shop-app-order-tracking-broken",
-   "nights_seen": 12,
-   "trend": "verschwunden"
-  },
-  {
-   "id": "smb-ads-money-wasted",
-   "nights_seen": 12,
    "trend": "stabil"
   },
   {
-   "id": "ticket-resale-not-delivered-refund",
-   "nights_seen": 11,
+   "id": "gallery-photos-disappear-android",
+   "nights_seen": 16,
    "trend": "verschwunden"
   },
   {
-   "id": "ticket-obstructed-view-misdescribed",
-   "nights_seen": 11,
+   "id": "meta-business-suite-inbox-broken",
+   "nights_seen": 14,
    "trend": "verschwunden"
+  },
+  {
+   "id": "smarthome-app-update-broken-de",
+   "nights_seen": 14,
+   "trend": "stabil"
+  },
+  {
+   "id": "shop-app-order-tracking-broken",
+   "nights_seen": 13,
+   "trend": "stabil"
+  },
+  {
+   "id": "smb-ads-money-wasted",
+   "nights_seen": 13,
+   "trend": "stabil"
+  },
+  {
+   "id": "etsy-seller-app-buggy",
+   "nights_seen": 12,
+   "trend": "stabil"
   },
   {
    "id": "event-parking-resale-misdirected",
@@ -101,9 +101,9 @@
    "trend": "verschwunden"
   },
   {
-   "id": "etsy-seller-app-buggy",
+   "id": "monarch-privacy-support",
    "nights_seen": 11,
-   "trend": "verschwunden"
+   "trend": "stabil"
   }
  ],
  "pipeline": {

@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-22T10:18:34+01:00",
- "today": "2026-11-22",
+ "generated": "2026-11-23T05:25:22+01:00",
+ "today": "2026-11-23",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
-  "brief": "ok"
+  "brief": "pending"
  },
- "raw_records_latest": 272,
- "raw_file": "2026-11-22.jsonl",
+ "raw_records_latest": 174,
+ "raw_file": "2026-11-23.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-22",
+ "latest_brief": "2026-11-23",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,27 +43,32 @@
  "sources_ok": 19,
  "sources_total": 23,
  "quality_latest": {
-  "date": "2026-11-22",
-  "raw_records": 272,
-  "unique": 272,
-  "useful": 258,
-  "useful_share": 0.949,
+  "date": "2026-11-23",
+  "raw_records": 173,
+  "unique": 173,
+  "useful": 157,
+  "useful_share": 0.908,
   "near_duplicates": 0,
-  "digest_shown": 41,
-  "evidence_used": 10,
-  "digest_shown_share": 0.159,
-  "evidence_used_share": 0.039
+  "digest_shown": 38,
+  "evidence_used": 13,
+  "digest_shown_share": 0.242,
+  "evidence_used_share": 0.083
  },
  "recurring_pains": [
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 25,
-   "trend": "stabil"
+   "nights_seen": 26,
+   "trend": "steigend"
   },
   {
    "id": "gallery-photos-disappear-android",
    "nights_seen": 16,
-   "trend": "verschwunden"
+   "trend": "stabil"
+  },
+  {
+   "id": "smarthome-app-update-broken-de",
+   "nights_seen": 15,
+   "trend": "stabil"
   },
   {
    "id": "meta-business-suite-inbox-broken",
@@ -71,14 +76,9 @@
    "trend": "verschwunden"
   },
   {
-   "id": "smarthome-app-update-broken-de",
-   "nights_seen": 14,
-   "trend": "stabil"
-  },
-  {
    "id": "shop-app-order-tracking-broken",
    "nights_seen": 13,
-   "trend": "stabil"
+   "trend": "verschwunden"
   },
   {
    "id": "smb-ads-money-wasted",
@@ -88,12 +88,12 @@
   {
    "id": "etsy-seller-app-buggy",
    "nights_seen": 12,
-   "trend": "stabil"
+   "trend": "verschwunden"
   },
   {
-   "id": "event-parking-resale-misdirected",
-   "nights_seen": 11,
-   "trend": "verschwunden"
+   "id": "monarch-privacy-support",
+   "nights_seen": 12,
+   "trend": "steigend"
   },
   {
    "id": "truck-parking-info-unreliable",
@@ -101,7 +101,7 @@
    "trend": "verschwunden"
   },
   {
-   "id": "monarch-privacy-support",
+   "id": "google-calendar-tasks-unhide-bug",
    "nights_seen": 11,
    "trend": "stabil"
   }

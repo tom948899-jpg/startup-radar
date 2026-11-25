@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-24T06:53:12+01:00",
- "today": "2026-11-24",
+ "generated": "2026-11-25T05:18:54+01:00",
+ "today": "2026-11-25",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
   "brief": "pending"
  },
- "raw_records_latest": 424,
- "raw_file": "2026-11-24.jsonl",
+ "raw_records_latest": 347,
+ "raw_file": "2026-11-25.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-24",
+ "latest_brief": "2026-11-25",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,16 +43,16 @@
  "sources_ok": 19,
  "sources_total": 23,
  "quality_latest": {
-  "date": "2026-11-24",
-  "raw_records": 424,
-  "unique": 424,
-  "useful": 328,
-  "useful_share": 0.774,
+  "date": "2026-11-25",
+  "raw_records": 347,
+  "unique": 347,
+  "useful": 336,
+  "useful_share": 0.968,
   "near_duplicates": 0,
-  "digest_shown": 35,
-  "evidence_used": 10,
-  "digest_shown_share": 0.107,
-  "evidence_used_share": 0.03
+  "digest_shown": 65,
+  "evidence_used": 17,
+  "digest_shown_share": 0.193,
+  "evidence_used_share": 0.051
  },
  "recurring_pains": [
   {
@@ -61,34 +61,34 @@
    "trend": "stabil"
   },
   {
-   "id": "gallery-photos-disappear-android",
-   "nights_seen": 17,
+   "id": "gallery-app-forced-ads",
+   "nights_seen": 18,
    "trend": "steigend"
   },
   {
-   "id": "meta-business-suite-inbox-broken",
-   "nights_seen": 15,
-   "trend": "stabil"
-  },
-  {
-   "id": "smarthome-app-update-broken-de",
-   "nights_seen": 15,
-   "trend": "stabil"
-  },
-  {
-   "id": "smb-payment-processing-fees",
-   "nights_seen": 14,
+   "id": "gallery-photos-disappear-android",
+   "nights_seen": 16,
    "trend": "stabil"
   },
   {
    "id": "etsy-seller-app-buggy",
-   "nights_seen": 13,
+   "nights_seen": 14,
+   "trend": "stabil"
+  },
+  {
+   "id": "smarthome-app-update-broken-de",
+   "nights_seen": 14,
    "trend": "stabil"
   },
   {
    "id": "smb-ads-money-wasted",
    "nights_seen": 13,
-   "trend": "steigend"
+   "trend": "stabil"
+  },
+  {
+   "id": "smb-payment-processing-fees",
+   "nights_seen": 13,
+   "trend": "stabil"
   },
   {
    "id": "shop-app-order-tracking-broken",
@@ -96,13 +96,13 @@
    "trend": "verschwunden"
   },
   {
-   "id": "budget-app-sync-forecast",
+   "id": "google-calendar-tasks-unhide-bug",
    "nights_seen": 12,
-   "trend": "verschwunden"
+   "trend": "steigend"
   },
   {
-   "id": "truck-parking-info-unreliable",
-   "nights_seen": 12,
+   "id": "budget-app-sync-forecast",
+   "nights_seen": 11,
    "trend": "stabil"
   }
  ],

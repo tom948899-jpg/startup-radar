@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-27T06:55:59+01:00",
- "today": "2026-11-27",
+ "generated": "2026-11-28T05:18:29+01:00",
+ "today": "2026-11-28",
  "stages": {
   "scout": "ok",
   "analyst": "ok",
   "builder": "ok",
   "brief": "pending"
  },
- "raw_records_latest": 331,
- "raw_file": "2026-11-27.jsonl",
+ "raw_records_latest": 867,
+ "raw_file": "2026-11-28.jsonl",
  "pains_in_db": 9,
  "pains_kept_latest": 0,
  "ideas_pitched_total": 9,
- "latest_brief": "2026-11-27",
+ "latest_brief": "2026-11-28",
  "top_pains": [
   {
    "title": "Kleine Handwerker/Freelancer zahlen für mobile Rechnungs-Apps mit Abo-Fallen, Bugs und ohne Support",
@@ -43,27 +43,32 @@
  "sources_ok": 19,
  "sources_total": 23,
  "quality_latest": {
-  "date": "2026-11-27",
-  "raw_records": 331,
-  "unique": 331,
-  "useful": 311,
-  "useful_share": 0.94,
+  "date": "2026-11-28",
+  "raw_records": 867,
+  "unique": 867,
+  "useful": 829,
+  "useful_share": 0.956,
   "near_duplicates": 0,
-  "digest_shown": 44,
-  "evidence_used": 16,
-  "digest_shown_share": 0.141,
-  "evidence_used_share": 0.051
+  "digest_shown": 84,
+  "evidence_used": 14,
+  "digest_shown_share": 0.101,
+  "evidence_used_share": 0.017
  },
  "recurring_pains": [
   {
    "id": "subscription-trial-forgot-cancel",
-   "nights_seen": 25,
-   "trend": "stabil"
+   "nights_seen": 26,
+   "trend": "steigend"
   },
   {
    "id": "gallery-app-forced-ads",
-   "nights_seen": 20,
+   "nights_seen": 21,
    "trend": "stabil"
+  },
+  {
+   "id": "travel-platform-cancellation-charge",
+   "nights_seen": 19,
+   "trend": "steigend"
   },
   {
    "id": "gallery-photos-disappear-android",
@@ -76,7 +81,12 @@
    "trend": "stabil"
   },
   {
-   "id": "google-calendar-tasks-unhide-bug",
+   "id": "smb-ads-money-wasted",
+   "nights_seen": 14,
+   "trend": "steigend"
+  },
+  {
+   "id": "meta-business-suite-inbox-broken",
    "nights_seen": 13,
    "trend": "steigend"
   },
@@ -86,24 +96,14 @@
    "trend": "stabil"
   },
   {
-   "id": "google-calendar-icon-date-widget-bug",
-   "nights_seen": 13,
-   "trend": "stabil"
-  },
-  {
-   "id": "smb-ads-money-wasted",
-   "nights_seen": 12,
-   "trend": "stabil"
-  },
-  {
    "id": "smarthome-app-update-broken-de",
-   "nights_seen": 12,
+   "nights_seen": 13,
    "trend": "stabil"
   },
   {
    "id": "shop-app-order-tracking-broken",
    "nights_seen": 12,
-   "trend": "verschwunden"
+   "trend": "steigend"
   }
  ],
  "pipeline": {
